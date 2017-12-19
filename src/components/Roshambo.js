@@ -7,6 +7,19 @@ import Scoreboard from './Scoreboard';
 import Computer from './Computer';
 
 class Roshambo extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      score: {
+        draw: 0,
+        win: 0,
+        loss: 0
+      },
+      history: []
+    };
+  }
+
   render() {
     return (
       <div className="Roshambo">
