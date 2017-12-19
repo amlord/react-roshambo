@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Roshambo renders correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -41,6 +41,11 @@ ShallowWrapper {
           </code>
            and save to reload.
 </p>,
+        <div>
+          <Player />
+          <Scoreboard />
+          <Computer />
+</div>,
       ],
       "className": "Roshambo",
     },
@@ -127,6 +132,49 @@ ShallowWrapper {
         ],
         "type": "p",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Player />,
+            <Scoreboard />,
+            <Computer />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
     ],
     "type": "div",
   },
@@ -160,6 +208,11 @@ ShallowWrapper {
             </code>
              and save to reload.
 </p>,
+          <div>
+            <Player />
+            <Scoreboard />
+            <Computer />
+</div>,
         ],
         "className": "Roshambo",
       },
@@ -245,6 +298,49 @@ ShallowWrapper {
             " and save to reload.",
           ],
           "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Player />,
+              <Scoreboard />,
+              <Computer />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",

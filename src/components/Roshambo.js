@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import './Roshambo.css';
 
+import Player from './Player';
+import Scoreboard from './Scoreboard';
+import Computer from './Computer';
+
 class Roshambo extends Component {
   render() {
     return (
@@ -13,6 +17,11 @@ class Roshambo extends Component {
         <p className="Roshambo-intro">
           To get started, edit <code>src/Roshambo.js</code> and save to reload.
         </p>
+        <div>
+          <Player />
+          <Scoreboard />
+          <Computer />
+        </div>
       </div>
     );
   }
