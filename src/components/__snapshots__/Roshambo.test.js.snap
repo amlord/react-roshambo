@@ -42,7 +42,9 @@ ShallowWrapper {
            and save to reload.
 </p>,
         <div>
-          <Player />
+          <Player
+                    playShape={[Function]}
+          />
           <Scoreboard
                     resetGame={[Function]}
           />
@@ -140,7 +142,9 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Player />,
+            <Player
+              playShape={[Function]}
+/>,
             <Scoreboard
               resetGame={[Function]}
 />,
@@ -153,7 +157,9 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
-            "props": Object {},
+            "props": Object {
+              "playShape": [Function],
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -215,7 +221,9 @@ ShallowWrapper {
              and save to reload.
 </p>,
           <div>
-            <Player />
+            <Player
+                        playShape={[Function]}
+            />
             <Scoreboard
                         resetGame={[Function]}
             />
@@ -313,7 +321,9 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Player />,
+              <Player
+                playShape={[Function]}
+/>,
               <Scoreboard
                 resetGame={[Function]}
 />,
@@ -326,7 +336,9 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "class",
-              "props": Object {},
+              "props": Object {
+                "playShape": [Function],
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],

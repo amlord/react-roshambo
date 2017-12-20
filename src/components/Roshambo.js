@@ -31,6 +31,17 @@ class Roshambo extends Component {
     });
   }
 
+  playShape = shape => {
+    const { history } = this.state;
+
+    // add the player's choice of shape to the `history` state
+    history.push({player: shape});
+
+    this.setState({
+      history
+    });
+  }
+
   render() {
     return (
       <div className="Roshambo">
@@ -42,7 +53,9 @@ class Roshambo extends Component {
           To get started, edit <code>src/Roshambo.js</code> and save to reload.
         </p>
         <div>
-          <Player />
+          <Player
+            playShape={this.playShape}
+          />
           <Scoreboard
             resetGame={this.resetGame}
           />

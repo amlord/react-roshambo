@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 
 import Roshambo from './Roshambo';
+import { ROCK, PAPER, SCISSORS } from '../helpers/constants';
 
 describe('Roshambo', () => {
   const roshambo = shallow(<Roshambo />);
@@ -56,6 +57,27 @@ describe('Roshambo', () => {
 
     it('history array emptied', () => {
       expect(roshambo.state().history).toEqual([]);
+    });
+  });
+
+  describe('user chooses a shape', () => {
+    beforeEach( () => {
+      roshambo.instance().resetGame();
+    });
+
+    it('rock', () => {
+      roshambo.instance().playShape(ROCK);
+      expect(roshambo.state().history[0].player).toEqual(ROCK);
+    });
+
+    it('paper', () => {
+      roshambo.instance().playShape(PAPER);
+      expect(roshambo.state().history[0].player).toEqual(PAPER);
+    });
+
+    it('scissors', () => {
+      roshambo.instance().playShape(SCISSORS);
+      expect(roshambo.state().history[0].player).toEqual(SCISSORS);
     });
   });
 });
