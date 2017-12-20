@@ -20,7 +20,7 @@ class Roshambo extends Component {
     };
   }
 
-  resetGame() {
+  resetGame = () => {
     this.setState({
       score: {
         draw: 0,
