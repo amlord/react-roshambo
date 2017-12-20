@@ -43,7 +43,9 @@ class Roshambo extends Component {
         </p>
         <div>
           <Player />
-          <Scoreboard />
+          <Scoreboard
+            resetGame={this.resetGame}
+          />
           <Computer />
         </div>
       </div>
