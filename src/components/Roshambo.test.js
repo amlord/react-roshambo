@@ -27,4 +27,35 @@ describe('Roshambo', () => {
   it('initialises `state` with an empty history', () => {
     expect(roshambo.state().history).toEqual([]);
   });
+
+  describe('user resets the game', () => {
+    beforeEach( () => {
+      roshambo.setState({
+        score: {
+          draw: 1,
+          loss: 1,
+          win: 1
+        },
+        history: [
+          {player: 1, computer: 1},
+          {player: 1, computer: 2},
+          {player: 2, computer: 1}
+        ]
+      });
+
+      roshambo.instance().resetGame();
+    });
+
+    it('scores reset to 0', () => {
+      expect(roshambo.state().score).toEqual({
+        draw: 0,
+        loss: 0,
+        win: 0
+      });
+    });
+
+    it('history array emptied', () => {
+      expect(roshambo.state().history).toEqual([]);
+    });
+  });
 });
