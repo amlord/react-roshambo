@@ -4,7 +4,11 @@ import './Computer.css';
 class Computer extends Component {
   render() {
     return (
-      <div className="Computer">Computer Component</div>
+      <section className="Computer">
+        <header>
+          <h1>Computer Component</h1>
+        </header>
+      </section>
     );
   }
 }
