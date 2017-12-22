@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 
 import Roshambo from './Roshambo';
-import { ROCK, PAPER, SCISSORS } from '../helpers/constants';
+import { ROCK, PAPER, SCISSORS, WIN, DRAW, LOSS } from '../helpers/constants';
 
 describe('Roshambo', () => {
   const roshambo = shallow(<Roshambo />);
@@ -116,19 +116,38 @@ describe('Roshambo', () => {
     });
   });
 
-  describe('outcomes', () => {
-    /*
-    ROCK / ROCK         = draw
-    ROCK / PAPER        = loss
-    ROCK / SCISSORS     = win
+  describe('game outcome', () => {
+    // rock combinations
+    it('rock / rock', () => {
+      expect(roshambo.instance().gameOutcome(ROCK, ROCK)).toEqual(DRAW);
+    });
+    it('rock / paper', () => {
+      expect(roshambo.instance().gameOutcome(ROCK, PAPER)).toEqual(LOSS);
+    });
+    it('rock / scissors', () => {
+      expect(roshambo.instance().gameOutcome(ROCK, SCISSORS)).toEqual(WIN);
+    });
 
-    PAPER / ROCK        = win
-    PAPER / PAPER       = draw
-    PAPER / SCISSORS    = loss
+    // paper combinations
+    it('paper / rock', () => {
+      expect(roshambo.instance().gameOutcome(PAPER, ROCK)).toEqual(WIN);
+    });
+    it('paper / paper', () => {
+      expect(roshambo.instance().gameOutcome(PAPER, PAPER)).toEqual(DRAW);
+    });
+    it('paper / scissors', () => {
+      expect(roshambo.instance().gameOutcome(PAPER, SCISSORS)).toEqual(LOSS);
+    });
 
-    SCISSORS / ROCK     = loss
-    SCISSORS / PAPER    = win
-    SCISSORS / SCISSORS = draw
-    */
+    // scissors combinations
+    it('scissors / rock', () => {
+      expect(roshambo.instance().gameOutcome(SCISSORS, ROCK)).toEqual(LOSS);
+    });
+    it('scissors / paper', () => {
+      expect(roshambo.instance().gameOutcome(SCISSORS, PAPER)).toEqual(WIN);
+    });
+    it('scissors / scissors', () => {
+      expect(roshambo.instance().gameOutcome(SCISSORS, SCISSORS)).toEqual(DRAW);
+    });
   });
 });

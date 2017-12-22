@@ -7,6 +7,7 @@ import './Roshambo.css';
 import Player from './Player';
 import Scoreboard from './Scoreboard';
 import Computer from './Computer';
+import { ROCK, PAPER, SCISSORS, WIN, DRAW, LOSS } from '../helpers/constants';
 
 class Roshambo extends Component {
   constructor() {
@@ -47,6 +48,23 @@ class Roshambo extends Component {
   computerChoice = seed => {
     // generate random number between 1 and 3 (repeatable with `seed` for testing)
     return rnd.random( seed || rnd.genCsSeed(), 1, 3 ).value;
+  }
+
+  gameOutcome = ( playerChoice, computerChoice ) => {
+    // matching choices result in a draw
+    if( playerChoice === computerChoice ) {
+      return DRAW;
+    }
+
+    // combinations leading to a `Player` loss
+    if( ( playerChoice === ROCK && computerChoice === PAPER ) ||
+        ( playerChoice === PAPER && computerChoice === SCISSORS ) ||
+        ( playerChoice === SCISSORS && computerChoice === ROCK ) ) {
+      return LOSS;
+    }
+
+    // anything else is a win
+    return WIN;
   }
 
   render() {
