@@ -8,7 +8,7 @@ class Player extends Component {
     return (
       <section className="Player">
         <header>
-          <h1>Player Component</h1>
+          <h1>Player</h1>
         </header>
         <button className="btn--rock" onClick={() => this.props.playShape(ROCK)}>Rock</button>
         <button className="btn--paper" onClick={() => this.props.playShape(PAPER)}>Paper</button>

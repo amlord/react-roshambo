@@ -6,7 +6,7 @@ class Computer extends Component {
     return (
       <section className="Computer">
         <header>
-          <h1>Computer Component</h1>
+          <h1>Computer</h1>
         </header>
       </section>
     );

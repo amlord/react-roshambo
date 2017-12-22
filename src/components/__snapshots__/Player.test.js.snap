@@ -22,7 +22,7 @@ ShallowWrapper {
       "children": Array [
         <header>
           <h1>
-                    Player Component
+                    Player
           </h1>
 </header>,
         <button
@@ -54,7 +54,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <h1>
-            Player Component
+            Player
 </h1>,
         },
         "ref": null,
@@ -63,10 +63,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Player Component",
+            "children": "Player",
           },
           "ref": null,
-          "rendered": "Player Component",
+          "rendered": "Player",
           "type": "h1",
         },
         "type": "header",
@@ -122,7 +122,7 @@ ShallowWrapper {
         "children": Array [
           <header>
             <h1>
-                        Player Component
+                        Player
             </h1>
 </header>,
           <button
@@ -154,7 +154,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <h1>
-              Player Component
+              Player
 </h1>,
           },
           "ref": null,
@@ -163,10 +163,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Player Component",
+              "children": "Player",
             },
             "ref": null,
-            "rendered": "Player Component",
+            "rendered": "Player",
             "type": "h1",
           },
           "type": "header",

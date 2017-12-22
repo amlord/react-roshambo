@@ -47,6 +47,13 @@ ShallowWrapper {
           />
           <Scoreboard
                     resetGame={[Function]}
+                    score={
+                              Object {
+                                        "draw": 0,
+                                        "loss": 0,
+                                        "win": 0,
+                                      }
+                    }
           />
           <Computer />
 </div>,
@@ -147,6 +154,13 @@ ShallowWrapper {
 />,
             <Scoreboard
               resetGame={[Function]}
+              score={
+                            Object {
+                                          "draw": 0,
+                                          "loss": 0,
+                                          "win": 0,
+                                        }
+              }
 />,
             <Computer />,
           ],
@@ -170,6 +184,11 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "resetGame": [Function],
+              "score": Object {
+                "draw": 0,
+                "loss": 0,
+                "win": 0,
+              },
             },
             "ref": null,
             "rendered": null,
@@ -226,6 +245,13 @@ ShallowWrapper {
             />
             <Scoreboard
                         resetGame={[Function]}
+                        score={
+                                    Object {
+                                                "draw": 0,
+                                                "loss": 0,
+                                                "win": 0,
+                                              }
+                        }
             />
             <Computer />
 </div>,
@@ -326,6 +352,13 @@ ShallowWrapper {
 />,
               <Scoreboard
                 resetGame={[Function]}
+                score={
+                                Object {
+                                                "draw": 0,
+                                                "loss": 0,
+                                                "win": 0,
+                                              }
+                }
 />,
               <Computer />,
             ],
@@ -349,6 +382,11 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "resetGame": [Function],
+                "score": Object {
+                  "draw": 0,
+                  "loss": 0,
+                  "win": 0,
+                },
               },
               "ref": null,
               "rendered": null,

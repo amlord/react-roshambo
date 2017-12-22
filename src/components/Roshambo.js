@@ -57,6 +57,7 @@ class Roshambo extends Component {
             playShape={this.playShape}
           />
           <Scoreboard
+            score={this.state.score}
             resetGame={this.resetGame}
           />
           <Computer />

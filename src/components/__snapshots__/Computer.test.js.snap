@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": <header>
         <h1>
-                Computer Component
+                Computer
         </h1>
 </header>,
       "className": "Computer",
@@ -31,7 +31,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <h1>
-          Computer Component
+          Computer
 </h1>,
       },
       "ref": null,
@@ -40,10 +40,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Computer Component",
+          "children": "Computer",
         },
         "ref": null,
-        "rendered": "Computer Component",
+        "rendered": "Computer",
         "type": "h1",
       },
       "type": "header",
@@ -58,7 +58,7 @@ ShallowWrapper {
       "props": Object {
         "children": <header>
           <h1>
-                    Computer Component
+                    Computer
           </h1>
 </header>,
         "className": "Computer",
@@ -70,7 +70,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <h1>
-            Computer Component
+            Computer
 </h1>,
         },
         "ref": null,
@@ -79,10 +79,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Computer Component",
+            "children": "Computer",
           },
           "ref": null,
-          "rendered": "Computer Component",
+          "rendered": "Computer",
           "type": "h1",
         },
         "type": "header",

@@ -6,6 +6,13 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Scoreboard
     resetGame={[Function]}
+    score={
+        Object {
+            "draw": 0,
+            "loss": 0,
+            "win": 0,
+          }
+    }
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -22,9 +29,43 @@ ShallowWrapper {
       "children": Array [
         <header>
           <h1>
-                    Scoreboard Component
+                    Scoreboard
           </h1>
 </header>,
+        <div
+          className="scores"
+>
+          <div
+                    className="score score--win"
+          >
+                    <h2>
+                              Win
+                    </h2>
+                    <div
+                              className="scoreCount scoreCount--win"
+                    />
+          </div>
+          <div
+                    className="score score--draw"
+          >
+                    <h2>
+                              Draw
+                    </h2>
+                    <div
+                              className="scoreCount scoreCount--draw"
+                    />
+          </div>
+          <div
+                    className="score score--loss"
+          >
+                    <h2>
+                              Loss
+                    </h2>
+                    <div
+                              className="scoreCount scoreCount--loss"
+                    />
+          </div>
+</div>,
         <button
           className="btn--reset"
           onClick={[Function]}
@@ -42,7 +83,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <h1>
-            Scoreboard Component
+            Scoreboard
 </h1>,
         },
         "ref": null,
@@ -51,13 +92,186 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Scoreboard Component",
+            "children": "Scoreboard",
           },
           "ref": null,
-          "rendered": "Scoreboard Component",
+          "rendered": "Scoreboard",
           "type": "h1",
         },
         "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="score score--win"
+>
+              <h2>
+                            Win
+              </h2>
+              <div
+                            className="scoreCount scoreCount--win"
+              />
+</div>,
+            <div
+              className="score score--draw"
+>
+              <h2>
+                            Draw
+              </h2>
+              <div
+                            className="scoreCount scoreCount--draw"
+              />
+</div>,
+            <div
+              className="score score--loss"
+>
+              <h2>
+                            Loss
+              </h2>
+              <div
+                            className="scoreCount scoreCount--loss"
+              />
+</div>,
+          ],
+          "className": "scores",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Win
+</h2>,
+                <div
+                  className="scoreCount scoreCount--win"
+/>,
+              ],
+              "className": "score score--win",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Win",
+                },
+                "ref": null,
+                "rendered": "Win",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0,
+                  "className": "scoreCount scoreCount--win",
+                },
+                "ref": null,
+                "rendered": 0,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Draw
+</h2>,
+                <div
+                  className="scoreCount scoreCount--draw"
+/>,
+              ],
+              "className": "score score--draw",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Draw",
+                },
+                "ref": null,
+                "rendered": "Draw",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0,
+                  "className": "scoreCount scoreCount--draw",
+                },
+                "ref": null,
+                "rendered": 0,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Loss
+</h2>,
+                <div
+                  className="scoreCount scoreCount--loss"
+/>,
+              ],
+              "className": "score score--loss",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Loss",
+                },
+                "ref": null,
+                "rendered": "Loss",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0,
+                  "className": "scoreCount scoreCount--loss",
+                },
+                "ref": null,
+                "rendered": 0,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -84,9 +298,43 @@ ShallowWrapper {
         "children": Array [
           <header>
             <h1>
-                        Scoreboard Component
+                        Scoreboard
             </h1>
 </header>,
+          <div
+            className="scores"
+>
+            <div
+                        className="score score--win"
+            >
+                        <h2>
+                                    Win
+                        </h2>
+                        <div
+                                    className="scoreCount scoreCount--win"
+                        />
+            </div>
+            <div
+                        className="score score--draw"
+            >
+                        <h2>
+                                    Draw
+                        </h2>
+                        <div
+                                    className="scoreCount scoreCount--draw"
+                        />
+            </div>
+            <div
+                        className="score score--loss"
+            >
+                        <h2>
+                                    Loss
+                        </h2>
+                        <div
+                                    className="scoreCount scoreCount--loss"
+                        />
+            </div>
+</div>,
           <button
             className="btn--reset"
             onClick={[Function]}
@@ -104,7 +352,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <h1>
-              Scoreboard Component
+              Scoreboard
 </h1>,
           },
           "ref": null,
@@ -113,13 +361,186 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Scoreboard Component",
+              "children": "Scoreboard",
             },
             "ref": null,
-            "rendered": "Scoreboard Component",
+            "rendered": "Scoreboard",
             "type": "h1",
           },
           "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="score score--win"
+>
+                <h2>
+                                Win
+                </h2>
+                <div
+                                className="scoreCount scoreCount--win"
+                />
+</div>,
+              <div
+                className="score score--draw"
+>
+                <h2>
+                                Draw
+                </h2>
+                <div
+                                className="scoreCount scoreCount--draw"
+                />
+</div>,
+              <div
+                className="score score--loss"
+>
+                <h2>
+                                Loss
+                </h2>
+                <div
+                                className="scoreCount scoreCount--loss"
+                />
+</div>,
+            ],
+            "className": "scores",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Win
+</h2>,
+                  <div
+                    className="scoreCount scoreCount--win"
+/>,
+                ],
+                "className": "score score--win",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Win",
+                  },
+                  "ref": null,
+                  "rendered": "Win",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0,
+                    "className": "scoreCount scoreCount--win",
+                  },
+                  "ref": null,
+                  "rendered": 0,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Draw
+</h2>,
+                  <div
+                    className="scoreCount scoreCount--draw"
+/>,
+                ],
+                "className": "score score--draw",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Draw",
+                  },
+                  "ref": null,
+                  "rendered": "Draw",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0,
+                    "className": "scoreCount scoreCount--draw",
+                  },
+                  "ref": null,
+                  "rendered": 0,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Loss
+</h2>,
+                  <div
+                    className="scoreCount scoreCount--loss"
+/>,
+                ],
+                "className": "score score--loss",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Loss",
+                  },
+                  "ref": null,
+                  "rendered": "Loss",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0,
+                    "className": "scoreCount scoreCount--loss",
+                  },
+                  "ref": null,
+                  "rendered": 0,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
