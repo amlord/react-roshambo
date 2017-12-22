@@ -29,7 +29,7 @@ describe('Roshambo', () => {
     expect(roshambo.state().history).toEqual([]);
   });
 
-  describe('user resets the game', () => {
+  describe('`Player` resets the game', () => {
     beforeEach( () => {
       roshambo.setState({
         score: {
@@ -60,7 +60,7 @@ describe('Roshambo', () => {
     });
   });
 
-  describe('user chooses a shape', () => {
+  describe('`Player` chooses a shape', () => {
     beforeEach( () => {
       roshambo.instance().resetGame();
     });
@@ -79,5 +79,10 @@ describe('Roshambo', () => {
       roshambo.instance().playShape(SCISSORS);
       expect(roshambo.state().history[0].player).toEqual(SCISSORS);
     });
+  });
+
+
+  describe('`Computer` chooses a shape', () => {
+
   });
 });
