@@ -43,7 +43,7 @@ ShallowWrapper {
 </p>,
         <div>
           <Player
-                    playShape={[Function]}
+                    playerChoice={[Function]}
           />
           <Scoreboard
                     resetGame={[Function]}
@@ -150,7 +150,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Player
-              playShape={[Function]}
+              playerChoice={[Function]}
 />,
             <Scoreboard
               resetGame={[Function]}
@@ -172,7 +172,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "playShape": [Function],
+              "playerChoice": [Function],
             },
             "ref": null,
             "rendered": null,
@@ -241,7 +241,7 @@ ShallowWrapper {
 </p>,
           <div>
             <Player
-                        playShape={[Function]}
+                        playerChoice={[Function]}
             />
             <Scoreboard
                         resetGame={[Function]}
@@ -348,7 +348,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <Player
-                playShape={[Function]}
+                playerChoice={[Function]}
 />,
               <Scoreboard
                 resetGame={[Function]}
@@ -370,7 +370,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "playShape": [Function],
+                "playerChoice": [Function],
               },
               "ref": null,
               "rendered": null,

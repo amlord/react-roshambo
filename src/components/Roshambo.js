@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import rnd  from 'pure-random';
+
 import logo from '../logo.svg';
 import './Roshambo.css';
 
@@ -31,7 +33,7 @@ class Roshambo extends Component {
     });
   }
 
-  playShape = shape => {
+  playerChoice = shape => {
     const { history } = this.state;
 
     // add the player's choice of shape to the `history` state
@@ -40,6 +42,11 @@ class Roshambo extends Component {
     this.setState({
       history
     });
+  }
+
+  computerChoice = seed => {
+    // generate random number between 1 and 3 (repeatable with `seed` for testing)
+    return rnd.random( seed || rnd.genCsSeed(), 1, 3 ).value;
   }
 
   render() {
@@ -54,7 +61,7 @@ class Roshambo extends Component {
         </p>
         <div>
           <Player
-            playShape={this.playShape}
+            playerChoice={this.playerChoice}
           />
           <Scoreboard
             score={this.state.score}

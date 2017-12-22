@@ -6,8 +6,8 @@ import Player from './Player';
 import { ROCK, PAPER, SCISSORS } from '../helpers/constants';
 
 describe('Player', () => {
-  const mockPlayShape = jest.fn();
-  const props = { playShape: mockPlayShape };
+  const mockplayerChoice = jest.fn();
+  const props = { playerChoice: mockplayerChoice };
   const player = shallow(<Player {...props} />);
 
   it('renders correctly', () => {
@@ -19,8 +19,8 @@ describe('Player', () => {
       player.find('.btn--rock').simulate('click');
     });
 
-    it('calls the `playShape` callback', () => {
-      expect(mockPlayShape).toHaveBeenCalledWith(ROCK);
+    it('calls the `playerChoice` callback', () => {
+      expect(mockplayerChoice).toHaveBeenCalledWith(ROCK);
     });
   });
 
@@ -29,8 +29,8 @@ describe('Player', () => {
       player.find('.btn--paper').simulate('click');
     });
 
-    it('calls the `playShape` callback', () => {
-      expect(mockPlayShape).toHaveBeenCalledWith(PAPER);
+    it('calls the `playerChoice` callback', () => {
+      expect(mockplayerChoice).toHaveBeenCalledWith(PAPER);
     });
   });
 
@@ -39,8 +39,8 @@ describe('Player', () => {
       player.find('.btn--scissors').simulate('click');
     });
 
-    it('calls the `playShape` callback', () => {
-      expect(mockPlayShape).toHaveBeenCalledWith(SCISSORS);
+    it('calls the `playerChoice` callback', () => {
+      expect(mockplayerChoice).toHaveBeenCalledWith(SCISSORS);
     });
   });
 });

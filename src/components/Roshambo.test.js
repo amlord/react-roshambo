@@ -66,23 +66,69 @@ describe('Roshambo', () => {
     });
 
     it('rock', () => {
-      roshambo.instance().playShape(ROCK);
+      roshambo.instance().playerChoice(ROCK);
       expect(roshambo.state().history[0].player).toEqual(ROCK);
     });
 
     it('paper', () => {
-      roshambo.instance().playShape(PAPER);
+      roshambo.instance().playerChoice(PAPER);
       expect(roshambo.state().history[0].player).toEqual(PAPER);
     });
 
     it('scissors', () => {
-      roshambo.instance().playShape(SCISSORS);
+      roshambo.instance().playerChoice(SCISSORS);
       expect(roshambo.state().history[0].player).toEqual(SCISSORS);
     });
   });
 
-
   describe('`Computer` chooses a shape', () => {
+    let seed;
 
+    // outcomes within required range
+    it('rock', () => {
+      // loop through 30 randomly generated outcomes
+      for(let i = 0; i < 30; i++) {
+        let random = roshambo.instance().computerChoice();
+        expect(random).toBeGreaterThanOrEqual(1)
+        expect(random).toBeLessThanOrEqual(3);
+      }
+    });
+
+    // ROCK outcome
+    it('rock', () => {
+      // `seed` causes outcome of 1 (ROCK)
+      seed = [3225582889, 3161022486, 617958775, 3943669506];
+      expect(roshambo.instance().computerChoice(seed)).toEqual(ROCK);
+    });
+
+    // PAPER outcome
+    it('paper', () => {
+      // `seed` causes outcome of 2 (PAPER)
+      seed = [1421904966, 3555913741, 725236340, 399219481];
+      expect(roshambo.instance().computerChoice(seed)).toEqual(PAPER);
+    });
+
+    // SCISSORS outcome
+    it('scissors', () => {
+      // `seed` causes outcome of 3 (SCISSORS)
+      seed = [2390802463, 2352622131, 965876151, 1929502849];
+      expect(roshambo.instance().computerChoice(seed)).toEqual(SCISSORS);
+    });
+  });
+
+  describe('outcomes', () => {
+    /*
+    ROCK / ROCK         = draw
+    ROCK / PAPER        = loss
+    ROCK / SCISSORS     = win
+
+    PAPER / ROCK        = win
+    PAPER / PAPER       = draw
+    PAPER / SCISSORS    = loss
+
+    SCISSORS / ROCK     = loss
+    SCISSORS / PAPER    = win
+    SCISSORS / SCISSORS = draw
+    */
   });
 });

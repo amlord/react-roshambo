@@ -10,9 +10,9 @@ class Player extends Component {
         <header>
           <h1>Player</h1>
         </header>
-        <button className="btn--rock" onClick={() => this.props.playShape(ROCK)}>Rock</button>
-        <button className="btn--paper" onClick={() => this.props.playShape(PAPER)}>Paper</button>
-        <button className="btn--scissors" onClick={() => this.props.playShape(SCISSORS)}>Scissors</button>
+        <button className="btn--rock" onClick={() => this.props.playerChoice(ROCK)}>Rock</button>
+        <button className="btn--paper" onClick={() => this.props.playerChoice(PAPER)}>Paper</button>
+        <button className="btn--scissors" onClick={() => this.props.playerChoice(SCISSORS)}>Scissors</button>
       </section>
     );
   }
