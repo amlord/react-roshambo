@@ -187,4 +187,29 @@ describe('Roshambo', () => {
       expect(roshambo.state().score.loss).toEqual(losses + 1);
     });
   });
+
+  it('correct scores', () => {
+    roshambo.instance().resetGame();
+
+    // run the game a few times
+    roshambo.instance().playerChoice(ROCK);
+    roshambo.instance().playerChoice(ROCK);
+    roshambo.instance().playerChoice(ROCK);
+    roshambo.instance().playerChoice(ROCK);
+    roshambo.instance().playerChoice(ROCK);
+
+    // calculate the scores from saved history
+    const actualScore = roshambo.state().history.reduce((acc, curr) => {
+      return {
+        win: (curr.outcome === WIN) ? ++acc.win : acc.win,
+        draw: (curr.outcome === DRAW) ? ++acc.draw : acc.draw,
+        loss: (curr.outcome === LOSS) ? ++acc.loss : acc.loss
+      };
+    }, { win:0, draw:0, loss:0 });
+
+    // check actual vs. calculated scores
+    expect(roshambo.state().score).toHaveProperty('win', actualScore.win);
+    expect(roshambo.state().score).toHaveProperty('draw', actualScore.draw);
+    expect(roshambo.state().score).toHaveProperty('loss', actualScore.loss);
+  });
 });
