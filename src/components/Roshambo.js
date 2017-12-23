@@ -72,6 +72,26 @@ class Roshambo extends Component {
     return WIN;
   }
 
+  incrementScore = outcome => {
+    let { win, draw, loss } = this.state.score;
+
+    switch( outcome ){
+      case WIN:
+        win += 1;
+        break;
+      case DRAW:
+        draw += 1;
+        break;
+      case LOSS:
+        loss += 1;
+        break;
+    }
+
+    this.setState({
+      score: { win, draw, loss }
+    });
+  }
+
   render() {
     return (
       <div className="Roshambo">

@@ -167,4 +167,24 @@ describe('Roshambo', () => {
       expect(roshambo.state().history[0]).toHaveProperty('outcome');
     });
   });
+
+  describe('update `score` object', () => {
+    it('`Player` draws', () => {
+      const draws = roshambo.state().score.draw;
+      roshambo.instance().incrementScore(DRAW);
+      expect(roshambo.state().score.draw).toEqual(draws + 1);
+    });
+
+    it('`Player` wins', () => {
+      const wins = roshambo.state().score.win;
+      roshambo.instance().incrementScore(WIN);
+      expect(roshambo.state().score.win).toEqual(wins + 1);
+    });
+
+    it('`Player` loses', () => {
+      const losses = roshambo.state().score.loss;
+      roshambo.instance().incrementScore(LOSS);
+      expect(roshambo.state().score.loss).toEqual(losses + 1);
+    });
+  });
 });
