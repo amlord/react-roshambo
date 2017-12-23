@@ -162,7 +162,7 @@ describe('Roshambo', () => {
     });
 
     it('contains correct properties', () => {
-    expect(roshambo.state().history[0]).toHaveProperty('player');
+    expect(roshambo.state().history[0]).toHaveProperty('player', ROCK);
       expect(roshambo.state().history[0]).toHaveProperty('computer');
       expect(roshambo.state().history[0]).toHaveProperty('outcome');
     });
