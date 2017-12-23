@@ -34,11 +34,16 @@ class Roshambo extends Component {
     });
   }
 
-  playerChoice = shape => {
+  playerChoice = choice => {
     const { history } = this.state;
+    const computerChoice = this.computerChoice();
 
     // add the player's choice of shape to the `history` state
-    history.push({player: shape});
+    history.push({
+      player: choice,
+      computer: computerChoice,
+      outcome: this.gameOutcome( choice, computerChoice )
+    });
 
     this.setState({
       history

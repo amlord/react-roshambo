@@ -150,4 +150,21 @@ describe('Roshambo', () => {
       expect(roshambo.instance().gameOutcome(SCISSORS, SCISSORS)).toEqual(DRAW);
     });
   });
+
+  describe('`history` array updated with computer choice and outcome', () => {
+    beforeAll( () => {
+      roshambo.instance().resetGame();
+    });
+
+    it('item added', () => {
+    roshambo.instance().playerChoice(ROCK);
+      expect(roshambo.state().history.length).toEqual(1);
+    });
+
+    it('contains correct properties', () => {
+    expect(roshambo.state().history[0]).toHaveProperty('player');
+      expect(roshambo.state().history[0]).toHaveProperty('computer');
+      expect(roshambo.state().history[0]).toHaveProperty('outcome');
+    });
+  });
 });
