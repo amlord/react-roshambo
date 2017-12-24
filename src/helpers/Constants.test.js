@@ -4,13 +4,13 @@ import { ROCK, PAPER, SCISSORS, WIN, DRAW, LOSS, Translate } from './Constants';
 describe('Constants', () => {
     describe('Shape', () => {
         it('translates `Rock` correctly', () => {
-            expect( Translate.shape(ROCK) ).toEqual("Rock");
+            expect( Translate.choice(ROCK) ).toEqual("Rock");
         });
         it('translates `Paper` correctly', () => {
-            expect( Translate.shape(PAPER) ).toEqual("Paper");
+            expect( Translate.choice(PAPER) ).toEqual("Paper");
         });
         it('translates `Scissors` correctly', () => {
-            expect( Translate.shape(SCISSORS) ).toEqual("Scissors");
+            expect( Translate.choice(SCISSORS) ).toEqual("Scissors");
         });
     });
 

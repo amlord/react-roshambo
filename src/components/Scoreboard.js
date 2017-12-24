@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Scoreboard.css';
 
+import ScoreHistory from './ScoreHistory';
+
 class Scoreboard extends Component {
   render() {
     return (
@@ -23,6 +25,8 @@ class Scoreboard extends Component {
           </div>
         </div>
         <button className="btn--reset" onClick={this.props.resetGame}>Reset Game</button>
+        <ScoreHistory
+          history={this.props.history} />
       </section>
     );
   }

@@ -12,7 +12,7 @@ class Computer extends Component {
             <h1>Computer</h1>
           </header>
           <div className="chosenShape">
-            <h2>{Translate.shape(this.props.chosen)}</h2>
+            <h2>{Translate.choice(this.props.chosen)}</h2>
           </div>
         </header>
       </section>

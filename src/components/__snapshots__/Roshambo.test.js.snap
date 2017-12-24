@@ -47,6 +47,7 @@ ShallowWrapper {
                     playerChoice={[Function]}
           />
           <Scoreboard
+                    history={Array []}
                     resetGame={[Function]}
                     score={
                               Object {
@@ -157,6 +158,7 @@ ShallowWrapper {
               playerChoice={[Function]}
 />,
             <Scoreboard
+              history={Array []}
               resetGame={[Function]}
               score={
                             Object {
@@ -190,6 +192,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
+              "history": Array [],
               "resetGame": [Function],
               "score": Object {
                 "draw": 0,
@@ -254,6 +257,7 @@ ShallowWrapper {
                         playerChoice={[Function]}
             />
             <Scoreboard
+                        history={Array []}
                         resetGame={[Function]}
                         score={
                                     Object {
@@ -364,6 +368,7 @@ ShallowWrapper {
                 playerChoice={[Function]}
 />,
               <Scoreboard
+                history={Array []}
                 resetGame={[Function]}
                 score={
                                 Object {
@@ -397,6 +402,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
+                "history": Array [],
                 "resetGame": [Function],
                 "score": Object {
                   "draw": 0,

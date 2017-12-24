@@ -29,7 +29,7 @@ function _translateOutcome(outcome) {
 }
 
 export const Translate = {
-    shape: function(shape) {
+    choice: function(shape) {
         return _translateShape(shape);
     },
     outcome: function(outcome) {

@@ -72,6 +72,9 @@ ShallowWrapper {
 >
           Reset Game
 </button>,
+        <ScoreHistory
+          history={undefined}
+/>,
       ],
       "className": "Scoreboard",
     },
@@ -286,6 +289,17 @@ ShallowWrapper {
         "rendered": "Reset Game",
         "type": "button",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "history": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "section",
   },
@@ -341,6 +355,9 @@ ShallowWrapper {
 >
             Reset Game
 </button>,
+          <ScoreHistory
+            history={undefined}
+/>,
         ],
         "className": "Scoreboard",
       },
@@ -554,6 +571,17 @@ ShallowWrapper {
           "ref": null,
           "rendered": "Reset Game",
           "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "history": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": "section",

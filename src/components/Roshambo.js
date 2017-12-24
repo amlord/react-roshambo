@@ -117,6 +117,7 @@ class Roshambo extends Component {
           <Scoreboard
             score={this.state.score}
             resetGame={this.resetGame}
+            history={history}
           />
           <Computer
             chosen={currentGame.computer} />
