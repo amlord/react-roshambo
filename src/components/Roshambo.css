@@ -31,6 +31,10 @@
   margin-top: 5px;
 }
 
+.Roshambo__game {
+  font-size: 0;
+}
+
 /* Roshambo Footer */
 .Roshambo__footer {
   color: #333;

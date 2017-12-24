@@ -109,7 +109,7 @@ class Roshambo extends Component {
               <h2 className="Roshambo__subtitle">(Rock, Paper, Scissors)</h2>
             </header>
             <p className="Roshambo__intro">Rules of the game can be found on the <a href="https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors">Rock, Paper Scissors Wikipedia page</a>.</p>
-            <div>
+            <div className="Roshambo__game">
               <Player
                 playerChoice={this.playerChoice}
                 chosen={currentGame.player}
@@ -124,6 +124,9 @@ class Roshambo extends Component {
             </div>
           </div>
         </div>
+        <footer class="Roshambo__footer">
+          <small>By <a href="https://github.com/amlord" title="Andrew Lord">Andrew Lord</a></small>
+        </footer>
       </section>
     );
   }

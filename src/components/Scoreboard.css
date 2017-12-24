@@ -1,0 +1,22 @@
+.Scoreboard {
+    vertical-align: top;
+    font-size: 1rem;
+    display: inline-block;
+    width: 31.578947368421053%;
+    margin-right: 2.631578947368421%;
+}
+
+.Scoreboard__scores {
+    font-size: 0;
+}
+
+.Scoreboard__score {
+    font-size: 1rem;
+    display: inline-block;
+    width: 27.777777777777778%;
+    margin-right: 8.333333333333333%;
+}
+
+.Scoreboard__score:last-child {
+    margin-right: 0;
+}

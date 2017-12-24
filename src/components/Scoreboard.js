@@ -10,18 +10,18 @@ class Scoreboard extends Component {
         <header>
           <h1>Scoreboard</h1>
         </header>
-        <div className="scores">
-          <div className="score score--win">
+        <div className="Scoreboard__scores">
+          <div className="Scoreboard__score Scoreboard__score--win">
             <h2>Win</h2>
-            <div className="scoreCount scoreCount--win">{this.props.score.win}</div>
+            <div className="Scoreboard__scoreCount Scoreboard__scoreCount--win">{this.props.score.win}</div>
           </div>
-          <div className="score score--draw">
+          <div className="Scoreboard__score Scoreboard__score--draw">
             <h2>Draw</h2>
-            <div className="scoreCount scoreCount--draw">{this.props.score.draw}</div>
+            <div className="Scoreboard__scoreCount Scoreboard__scoreCount--draw">{this.props.score.draw}</div>
           </div>
-          <div className="score score--loss">
+          <div className="Scoreboard__score Scoreboard__score--loss">
             <h2>Loss</h2>
-            <div className="scoreCount scoreCount--loss">{this.props.score.loss}</div>
+            <div className="Scoreboard__scoreCount Scoreboard__scoreCount--loss">{this.props.score.loss}</div>
           </div>
         </div>
         <button className="btn--reset" onClick={this.props.resetGame}>Reset Game</button>
