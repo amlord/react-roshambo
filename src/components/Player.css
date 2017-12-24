@@ -4,9 +4,12 @@
     display: inline-block;
     width: 31.578947368421053%;
     margin-right: 2.631578947368421%;
+    box-sizing: border-box;
+}
+
+.Player__panel {
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
 }
 
 .Player__title {
@@ -29,4 +32,29 @@
 
 .Player__ChosenShape {
     margin: 0;
+}
+
+.Player__choiceButtons {
+    margin-top: 20px;
+}
+
+.Player__button {
+    width: 30.555555555555556%;
+    margin-right: 4.166666666666667%;
+    padding: 6px;
+    border: 2px solid #f21b3f;
+    color: #f21b3f;
+}
+
+.Player__button:last-child {
+    margin-right: 0;
+}
+
+.Player__button:hover {
+    background: #f21b3f;
+    color: #fff;
+}
+
+.Player__choiceButtonsTitle {
+    font-size: 1em;
 }

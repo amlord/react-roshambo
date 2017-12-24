@@ -20,38 +20,53 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <header>
-          <h1
-                    className="Player__title"
-          >
-                    Player
-          </h1>
-</header>,
         <div
-          className="Player__choice"
+          className="Player__panel"
 >
-          <h2
-                    className="Player__ChosenShape"
-          />
+          <header>
+                    <h1
+                              className="Player__title"
+                    >
+                              Player
+                    </h1>
+          </header>
+          <div
+                    className="Player__choice"
+          >
+                    <h2
+                              className="Player__ChosenShape"
+                    />
+          </div>
 </div>,
-        <button
-          className="btn--rock"
-          onClick={[Function]}
+        <div
+          className="Player__choiceButtons"
 >
-          Rock
-</button>,
-        <button
-          className="btn--paper"
-          onClick={[Function]}
->
-          Paper
-</button>,
-        <button
-          className="btn--scissors"
-          onClick={[Function]}
->
-          Scissors
-</button>,
+          <h3
+                    className="Player__choiceButtonsTitle"
+          >
+                    Choose your shape:
+          </h3>
+          <div>
+                    <button
+                              className="Player__button Player__button--rock btn"
+                              onClick={[Function]}
+                    >
+                              Rock
+                    </button>
+                    <button
+                              className="Player__button Player__button--paper btn"
+                              onClick={[Function]}
+                    >
+                              Paper
+                    </button>
+                    <button
+                              className="Player__button Player__button--scissors btn"
+                              onClick={[Function]}
+                    >
+                              Scissors
+                    </button>
+          </div>
+</div>,
       ],
       "className": "Player",
     },
@@ -62,50 +77,78 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h1
-            className="Player__title"
+          "children": Array [
+            <header>
+              <h1
+                            className="Player__title"
+              >
+                            Player
+              </h1>
+</header>,
+            <div
+              className="Player__choice"
 >
-            Player
+              <h2
+                            className="Player__ChosenShape"
+              />
+</div>,
+          ],
+          "className": "Player__panel",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h1
+                className="Player__title"
+>
+                Player
 </h1>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Player",
-            "className": "Player__title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Player",
+                "className": "Player__title",
+              },
+              "ref": null,
+              "rendered": "Player",
+              "type": "h1",
+            },
+            "type": "header",
           },
-          "ref": null,
-          "rendered": "Player",
-          "type": "h1",
-        },
-        "type": "header",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <h2
-            className="Player__ChosenShape"
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2
+                className="Player__ChosenShape"
 />,
-          "className": "Player__choice",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-            "className": "Player__ChosenShape",
+              "className": "Player__choice",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "Player__ChosenShape",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "h2",
+            },
+            "type": "div",
           },
-          "ref": null,
-          "rendered": null,
-          "type": "h2",
-        },
+        ],
         "type": "div",
       },
       Object {
@@ -113,39 +156,121 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Rock",
-          "className": "btn--rock",
-          "onClick": [Function],
+          "children": Array [
+            <h3
+              className="Player__choiceButtonsTitle"
+>
+              Choose your shape:
+</h3>,
+            <div>
+              <button
+                            className="Player__button Player__button--rock btn"
+                            onClick={[Function]}
+              >
+                            Rock
+              </button>
+              <button
+                            className="Player__button Player__button--paper btn"
+                            onClick={[Function]}
+              >
+                            Paper
+              </button>
+              <button
+                            className="Player__button Player__button--scissors btn"
+                            onClick={[Function]}
+              >
+                            Scissors
+              </button>
+</div>,
+          ],
+          "className": "Player__choiceButtons",
         },
         "ref": null,
-        "rendered": "Rock",
-        "type": "button",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Paper",
-          "className": "btn--paper",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Paper",
-        "type": "button",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Scissors",
-          "className": "btn--scissors",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Scissors",
-        "type": "button",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Choose your shape:",
+              "className": "Player__choiceButtonsTitle",
+            },
+            "ref": null,
+            "rendered": "Choose your shape:",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="Player__button Player__button--rock btn"
+                  onClick={[Function]}
+>
+                  Rock
+</button>,
+                <button
+                  className="Player__button Player__button--paper btn"
+                  onClick={[Function]}
+>
+                  Paper
+</button>,
+                <button
+                  className="Player__button Player__button--scissors btn"
+                  onClick={[Function]}
+>
+                  Scissors
+</button>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Rock",
+                  "className": "Player__button Player__button--rock btn",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Rock",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Paper",
+                  "className": "Player__button Player__button--paper btn",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Paper",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Scissors",
+                  "className": "Player__button Player__button--scissors btn",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Scissors",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "section",
@@ -157,38 +282,53 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <header>
-            <h1
-                        className="Player__title"
-            >
-                        Player
-            </h1>
-</header>,
           <div
-            className="Player__choice"
+            className="Player__panel"
 >
-            <h2
-                        className="Player__ChosenShape"
-            />
+            <header>
+                        <h1
+                                    className="Player__title"
+                        >
+                                    Player
+                        </h1>
+            </header>
+            <div
+                        className="Player__choice"
+            >
+                        <h2
+                                    className="Player__ChosenShape"
+                        />
+            </div>
 </div>,
-          <button
-            className="btn--rock"
-            onClick={[Function]}
+          <div
+            className="Player__choiceButtons"
 >
-            Rock
-</button>,
-          <button
-            className="btn--paper"
-            onClick={[Function]}
->
-            Paper
-</button>,
-          <button
-            className="btn--scissors"
-            onClick={[Function]}
->
-            Scissors
-</button>,
+            <h3
+                        className="Player__choiceButtonsTitle"
+            >
+                        Choose your shape:
+            </h3>
+            <div>
+                        <button
+                                    className="Player__button Player__button--rock btn"
+                                    onClick={[Function]}
+                        >
+                                    Rock
+                        </button>
+                        <button
+                                    className="Player__button Player__button--paper btn"
+                                    onClick={[Function]}
+                        >
+                                    Paper
+                        </button>
+                        <button
+                                    className="Player__button Player__button--scissors btn"
+                                    onClick={[Function]}
+                        >
+                                    Scissors
+                        </button>
+            </div>
+</div>,
         ],
         "className": "Player",
       },
@@ -199,50 +339,78 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h1
-              className="Player__title"
+            "children": Array [
+              <header>
+                <h1
+                                className="Player__title"
+                >
+                                Player
+                </h1>
+</header>,
+              <div
+                className="Player__choice"
 >
-              Player
+                <h2
+                                className="Player__ChosenShape"
+                />
+</div>,
+            ],
+            "className": "Player__panel",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h1
+                  className="Player__title"
+>
+                  Player
 </h1>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Player",
-              "className": "Player__title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Player",
+                  "className": "Player__title",
+                },
+                "ref": null,
+                "rendered": "Player",
+                "type": "h1",
+              },
+              "type": "header",
             },
-            "ref": null,
-            "rendered": "Player",
-            "type": "h1",
-          },
-          "type": "header",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <h2
-              className="Player__ChosenShape"
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2
+                  className="Player__ChosenShape"
 />,
-            "className": "Player__choice",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-              "className": "Player__ChosenShape",
+                "className": "Player__choice",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "Player__ChosenShape",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h2",
+              },
+              "type": "div",
             },
-            "ref": null,
-            "rendered": null,
-            "type": "h2",
-          },
+          ],
           "type": "div",
         },
         Object {
@@ -250,39 +418,121 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Rock",
-            "className": "btn--rock",
-            "onClick": [Function],
+            "children": Array [
+              <h3
+                className="Player__choiceButtonsTitle"
+>
+                Choose your shape:
+</h3>,
+              <div>
+                <button
+                                className="Player__button Player__button--rock btn"
+                                onClick={[Function]}
+                >
+                                Rock
+                </button>
+                <button
+                                className="Player__button Player__button--paper btn"
+                                onClick={[Function]}
+                >
+                                Paper
+                </button>
+                <button
+                                className="Player__button Player__button--scissors btn"
+                                onClick={[Function]}
+                >
+                                Scissors
+                </button>
+</div>,
+            ],
+            "className": "Player__choiceButtons",
           },
           "ref": null,
-          "rendered": "Rock",
-          "type": "button",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Paper",
-            "className": "btn--paper",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Paper",
-          "type": "button",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Scissors",
-            "className": "btn--scissors",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Scissors",
-          "type": "button",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Choose your shape:",
+                "className": "Player__choiceButtonsTitle",
+              },
+              "ref": null,
+              "rendered": "Choose your shape:",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <button
+                    className="Player__button Player__button--rock btn"
+                    onClick={[Function]}
+>
+                    Rock
+</button>,
+                  <button
+                    className="Player__button Player__button--paper btn"
+                    onClick={[Function]}
+>
+                    Paper
+</button>,
+                  <button
+                    className="Player__button Player__button--scissors btn"
+                    onClick={[Function]}
+>
+                    Scissors
+</button>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Rock",
+                    "className": "Player__button Player__button--rock btn",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Rock",
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Paper",
+                    "className": "Player__button Player__button--paper btn",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Paper",
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Scissors",
+                    "className": "Player__button Player__button--scissors btn",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Scissors",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "section",
