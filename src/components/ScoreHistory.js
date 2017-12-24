@@ -10,7 +10,7 @@ class ScoreHistory extends Component {
 
     return (
         <table className="gameHistory">
-          {history.map((game, index) => {
+          {history.reverse().map((game, index) => {
               return (
                   <tr>
                       <td>{Translate.choice(game.player)}</td>

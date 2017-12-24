@@ -9,8 +9,8 @@ ShallowWrapper {
         Array [
             Object {
               "computer": 2,
-              "outcome": "loss",
-              "player": 1,
+              "outcome": "draw",
+              "player": 2,
             },
             Object {
               "computer": 2,
@@ -19,8 +19,8 @@ ShallowWrapper {
             },
             Object {
               "computer": 2,
-              "outcome": "draw",
-              "player": 2,
+              "outcome": "loss",
+              "player": 1,
             },
           ]
     }
@@ -42,10 +42,10 @@ ShallowWrapper {
 >
         <tr>
                 <td>
-                        Rock
+                        Paper
                 </td>
                 <td>
-                        Lose
+                        Draw
                 </td>
                 <td>
                         Paper
@@ -64,10 +64,10 @@ ShallowWrapper {
         </tr>
         <tr>
                 <td>
-                        Paper
+                        Rock
                 </td>
                 <td>
-                        Draw
+                        Lose
                 </td>
                 <td>
                         Paper
@@ -85,10 +85,10 @@ ShallowWrapper {
         "children": Array [
           <tr>
             <td>
-                        Rock
+                        Paper
             </td>
             <td>
-                        Lose
+                        Draw
             </td>
             <td>
                         Paper
@@ -107,10 +107,10 @@ ShallowWrapper {
 </tr>,
           <tr>
             <td>
-                        Paper
+                        Rock
             </td>
             <td>
-                        Draw
+                        Lose
             </td>
             <td>
                         Paper
@@ -128,10 +128,10 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <td>
-                Rock
+                Paper
 </td>,
               <td>
-                Lose
+                Draw
 </td>,
               <td>
                 Paper
@@ -145,10 +145,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Rock",
+                "children": "Paper",
               },
               "ref": null,
-              "rendered": "Rock",
+              "rendered": "Paper",
               "type": "td",
             },
             Object {
@@ -156,10 +156,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Lose",
+                "children": "Draw",
               },
               "ref": null,
-              "rendered": "Lose",
+              "rendered": "Draw",
               "type": "td",
             },
             Object {
@@ -238,10 +238,10 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <td>
-                Paper
+                Rock
 </td>,
               <td>
-                Draw
+                Lose
 </td>,
               <td>
                 Paper
@@ -255,10 +255,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Paper",
+                "children": "Rock",
               },
               "ref": null,
-              "rendered": "Paper",
+              "rendered": "Rock",
               "type": "td",
             },
             Object {
@@ -266,10 +266,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Draw",
+                "children": "Lose",
               },
               "ref": null,
-              "rendered": "Draw",
+              "rendered": "Lose",
               "type": "td",
             },
             Object {
@@ -302,10 +302,10 @@ ShallowWrapper {
 >
           <tr>
                     <td>
-                              Rock
+                              Paper
                     </td>
                     <td>
-                              Lose
+                              Draw
                     </td>
                     <td>
                               Paper
@@ -324,10 +324,10 @@ ShallowWrapper {
           </tr>
           <tr>
                     <td>
-                              Paper
+                              Rock
                     </td>
                     <td>
-                              Draw
+                              Lose
                     </td>
                     <td>
                               Paper
@@ -345,10 +345,10 @@ ShallowWrapper {
           "children": Array [
             <tr>
               <td>
-                            Rock
+                            Paper
               </td>
               <td>
-                            Lose
+                            Draw
               </td>
               <td>
                             Paper
@@ -367,10 +367,10 @@ ShallowWrapper {
 </tr>,
             <tr>
               <td>
-                            Paper
+                            Rock
               </td>
               <td>
-                            Draw
+                            Lose
               </td>
               <td>
                             Paper
@@ -388,10 +388,10 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <td>
-                  Rock
+                  Paper
 </td>,
                 <td>
-                  Lose
+                  Draw
 </td>,
                 <td>
                   Paper
@@ -405,10 +405,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Rock",
+                  "children": "Paper",
                 },
                 "ref": null,
-                "rendered": "Rock",
+                "rendered": "Paper",
                 "type": "td",
               },
               Object {
@@ -416,10 +416,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Lose",
+                  "children": "Draw",
                 },
                 "ref": null,
-                "rendered": "Lose",
+                "rendered": "Draw",
                 "type": "td",
               },
               Object {
@@ -498,10 +498,10 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <td>
-                  Paper
+                  Rock
 </td>,
                 <td>
-                  Draw
+                  Lose
 </td>,
                 <td>
                   Paper
@@ -515,10 +515,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Paper",
+                  "children": "Rock",
                 },
                 "ref": null,
-                "rendered": "Paper",
+                "rendered": "Rock",
                 "type": "td",
               },
               Object {
@@ -526,10 +526,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Draw",
+                  "children": "Lose",
                 },
                 "ref": null,
-                "rendered": "Draw",
+                "rendered": "Lose",
                 "type": "td",
               },
               Object {

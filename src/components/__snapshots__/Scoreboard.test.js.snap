@@ -33,36 +33,36 @@ ShallowWrapper {
           </h1>
 </header>,
         <div
-          className="scores"
+          className="Scoreboard__scores"
 >
           <div
-                    className="score score--win"
+                    className="Scoreboard__score Scoreboard__score--win"
           >
                     <h2>
                               Win
                     </h2>
                     <div
-                              className="scoreCount scoreCount--win"
+                              className="Scoreboard__scoreCount Scoreboard__scoreCount--win"
                     />
           </div>
           <div
-                    className="score score--draw"
+                    className="Scoreboard__score Scoreboard__score--draw"
           >
                     <h2>
                               Draw
                     </h2>
                     <div
-                              className="scoreCount scoreCount--draw"
+                              className="Scoreboard__scoreCount Scoreboard__scoreCount--draw"
                     />
           </div>
           <div
-                    className="score score--loss"
+                    className="Scoreboard__score Scoreboard__score--loss"
           >
                     <h2>
                               Loss
                     </h2>
                     <div
-                              className="scoreCount scoreCount--loss"
+                              className="Scoreboard__scoreCount Scoreboard__scoreCount--loss"
                     />
           </div>
 </div>,
@@ -110,37 +110,37 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <div
-              className="score score--win"
+              className="Scoreboard__score Scoreboard__score--win"
 >
               <h2>
                             Win
               </h2>
               <div
-                            className="scoreCount scoreCount--win"
+                            className="Scoreboard__scoreCount Scoreboard__scoreCount--win"
               />
 </div>,
             <div
-              className="score score--draw"
+              className="Scoreboard__score Scoreboard__score--draw"
 >
               <h2>
                             Draw
               </h2>
               <div
-                            className="scoreCount scoreCount--draw"
+                            className="Scoreboard__scoreCount Scoreboard__scoreCount--draw"
               />
 </div>,
             <div
-              className="score score--loss"
+              className="Scoreboard__score Scoreboard__score--loss"
 >
               <h2>
                             Loss
               </h2>
               <div
-                            className="scoreCount scoreCount--loss"
+                            className="Scoreboard__scoreCount Scoreboard__scoreCount--loss"
               />
 </div>,
           ],
-          "className": "scores",
+          "className": "Scoreboard__scores",
         },
         "ref": null,
         "rendered": Array [
@@ -154,10 +154,10 @@ ShallowWrapper {
                   Win
 </h2>,
                 <div
-                  className="scoreCount scoreCount--win"
+                  className="Scoreboard__scoreCount Scoreboard__scoreCount--win"
 />,
               ],
-              "className": "score score--win",
+              "className": "Scoreboard__score Scoreboard__score--win",
             },
             "ref": null,
             "rendered": Array [
@@ -178,7 +178,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": 0,
-                  "className": "scoreCount scoreCount--win",
+                  "className": "Scoreboard__scoreCount Scoreboard__scoreCount--win",
                 },
                 "ref": null,
                 "rendered": 0,
@@ -197,10 +197,10 @@ ShallowWrapper {
                   Draw
 </h2>,
                 <div
-                  className="scoreCount scoreCount--draw"
+                  className="Scoreboard__scoreCount Scoreboard__scoreCount--draw"
 />,
               ],
-              "className": "score score--draw",
+              "className": "Scoreboard__score Scoreboard__score--draw",
             },
             "ref": null,
             "rendered": Array [
@@ -221,7 +221,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": 0,
-                  "className": "scoreCount scoreCount--draw",
+                  "className": "Scoreboard__scoreCount Scoreboard__scoreCount--draw",
                 },
                 "ref": null,
                 "rendered": 0,
@@ -240,10 +240,10 @@ ShallowWrapper {
                   Loss
 </h2>,
                 <div
-                  className="scoreCount scoreCount--loss"
+                  className="Scoreboard__scoreCount Scoreboard__scoreCount--loss"
 />,
               ],
-              "className": "score score--loss",
+              "className": "Scoreboard__score Scoreboard__score--loss",
             },
             "ref": null,
             "rendered": Array [
@@ -264,7 +264,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": 0,
-                  "className": "scoreCount scoreCount--loss",
+                  "className": "Scoreboard__scoreCount Scoreboard__scoreCount--loss",
                 },
                 "ref": null,
                 "rendered": 0,
@@ -316,36 +316,36 @@ ShallowWrapper {
             </h1>
 </header>,
           <div
-            className="scores"
+            className="Scoreboard__scores"
 >
             <div
-                        className="score score--win"
+                        className="Scoreboard__score Scoreboard__score--win"
             >
                         <h2>
                                     Win
                         </h2>
                         <div
-                                    className="scoreCount scoreCount--win"
+                                    className="Scoreboard__scoreCount Scoreboard__scoreCount--win"
                         />
             </div>
             <div
-                        className="score score--draw"
+                        className="Scoreboard__score Scoreboard__score--draw"
             >
                         <h2>
                                     Draw
                         </h2>
                         <div
-                                    className="scoreCount scoreCount--draw"
+                                    className="Scoreboard__scoreCount Scoreboard__scoreCount--draw"
                         />
             </div>
             <div
-                        className="score score--loss"
+                        className="Scoreboard__score Scoreboard__score--loss"
             >
                         <h2>
                                     Loss
                         </h2>
                         <div
-                                    className="scoreCount scoreCount--loss"
+                                    className="Scoreboard__scoreCount Scoreboard__scoreCount--loss"
                         />
             </div>
 </div>,
@@ -393,37 +393,37 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <div
-                className="score score--win"
+                className="Scoreboard__score Scoreboard__score--win"
 >
                 <h2>
                                 Win
                 </h2>
                 <div
-                                className="scoreCount scoreCount--win"
+                                className="Scoreboard__scoreCount Scoreboard__scoreCount--win"
                 />
 </div>,
               <div
-                className="score score--draw"
+                className="Scoreboard__score Scoreboard__score--draw"
 >
                 <h2>
                                 Draw
                 </h2>
                 <div
-                                className="scoreCount scoreCount--draw"
+                                className="Scoreboard__scoreCount Scoreboard__scoreCount--draw"
                 />
 </div>,
               <div
-                className="score score--loss"
+                className="Scoreboard__score Scoreboard__score--loss"
 >
                 <h2>
                                 Loss
                 </h2>
                 <div
-                                className="scoreCount scoreCount--loss"
+                                className="Scoreboard__scoreCount Scoreboard__scoreCount--loss"
                 />
 </div>,
             ],
-            "className": "scores",
+            "className": "Scoreboard__scores",
           },
           "ref": null,
           "rendered": Array [
@@ -437,10 +437,10 @@ ShallowWrapper {
                     Win
 </h2>,
                   <div
-                    className="scoreCount scoreCount--win"
+                    className="Scoreboard__scoreCount Scoreboard__scoreCount--win"
 />,
                 ],
-                "className": "score score--win",
+                "className": "Scoreboard__score Scoreboard__score--win",
               },
               "ref": null,
               "rendered": Array [
@@ -461,7 +461,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": 0,
-                    "className": "scoreCount scoreCount--win",
+                    "className": "Scoreboard__scoreCount Scoreboard__scoreCount--win",
                   },
                   "ref": null,
                   "rendered": 0,
@@ -480,10 +480,10 @@ ShallowWrapper {
                     Draw
 </h2>,
                   <div
-                    className="scoreCount scoreCount--draw"
+                    className="Scoreboard__scoreCount Scoreboard__scoreCount--draw"
 />,
                 ],
-                "className": "score score--draw",
+                "className": "Scoreboard__score Scoreboard__score--draw",
               },
               "ref": null,
               "rendered": Array [
@@ -504,7 +504,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": 0,
-                    "className": "scoreCount scoreCount--draw",
+                    "className": "Scoreboard__scoreCount Scoreboard__scoreCount--draw",
                   },
                   "ref": null,
                   "rendered": 0,
@@ -523,10 +523,10 @@ ShallowWrapper {
                     Loss
 </h2>,
                   <div
-                    className="scoreCount scoreCount--loss"
+                    className="Scoreboard__scoreCount Scoreboard__scoreCount--loss"
 />,
                 ],
-                "className": "score score--loss",
+                "className": "Scoreboard__score Scoreboard__score--loss",
               },
               "ref": null,
               "rendered": Array [
@@ -547,7 +547,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": 0,
-                    "className": "scoreCount scoreCount--loss",
+                    "className": "Scoreboard__scoreCount Scoreboard__scoreCount--loss",
                   },
                   "ref": null,
                   "rendered": 0,

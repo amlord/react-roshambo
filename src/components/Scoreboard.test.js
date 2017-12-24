@@ -25,27 +25,27 @@ describe('Scoreboard', () => {
 
   describe('when the score changes', () => {
     it('`win` score label updates', () => {
-      expect( scoreboard.find('.scoreCount--win').text() ).toEqual("0");
+      expect( scoreboard.find('.Scoreboard__scoreCount--win').text() ).toEqual("0");
 
       scoreboard.setProps( { score: { win: 1, draw: 0, loss: 0 } } );
 
-      expect( scoreboard.find('.scoreCount--win').text() ).toEqual("1");
+      expect( scoreboard.find('.Scoreboard__scoreCount--win').text() ).toEqual("1");
     });
 
     it('`draw` score label updates', () => {
-      expect( scoreboard.find('.scoreCount--draw').text() ).toEqual("0");
+      expect( scoreboard.find('.Scoreboard__scoreCount--draw').text() ).toEqual("0");
 
       scoreboard.setProps( { score: { win: 0, draw: 2, loss: 0 } } );
 
-      expect( scoreboard.find('.scoreCount--draw').text() ).toEqual("2");
+      expect( scoreboard.find('.Scoreboard__scoreCount--draw').text() ).toEqual("2");
     });
 
     it('`loss` score label updates', () => {
-      expect( scoreboard.find('.scoreCount--loss').text() ).toEqual("0");
+      expect( scoreboard.find('.Scoreboard__scoreCount--loss').text() ).toEqual("0");
 
       scoreboard.setProps( { score: { win: 0, draw: 0, loss: 3 } } );
 
-      expect( scoreboard.find('.scoreCount--loss').text() ).toEqual("3");
+      expect( scoreboard.find('.Scoreboard__scoreCount--loss').text() ).toEqual("3");
     });
   });
 });
