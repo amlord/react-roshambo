@@ -15,7 +15,7 @@ describe('Scoreboard', () => {
 
   describe('when clicking the `reset` button', () => {
     beforeEach( () => {
-      scoreboard.find('.btn--reset').simulate('click');
+      scoreboard.find('.Scoreboard__reset').simulate('click');
     });
 
     it('calls the `resetGame` callback', () => {

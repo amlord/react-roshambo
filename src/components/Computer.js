@@ -9,10 +9,10 @@ class Computer extends Component {
       <section className="Computer">
         <header>
           <header>
-            <h1>Computer</h1>
+            <h1 className="Computer__title">Computer</h1>
           </header>
-          <div className="chosenShape">
-            <h2>{Translate.choice(this.props.chosen)}</h2>
+          <div className="Computer__choice">
+            <h2 className="Computer__ChosenShape">{Translate.choice(this.props.chosen)}</h2>
           </div>
         </header>
       </section>

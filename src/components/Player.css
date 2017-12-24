@@ -4,4 +4,29 @@
     display: inline-block;
     width: 31.578947368421053%;
     margin-right: 2.631578947368421%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Player__title {
+    font-size: 1em;
+    margin: 0;
+    padding: 5px;
+    background: #ececed;
+}
+
+.Player__choice {
+    height: 238px;
+    margin: 10px;
+    border-radius: 4px;
+    background: #f2f2f2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Player__ChosenShape {
+    margin: 0;
 }

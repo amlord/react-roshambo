@@ -3,4 +3,29 @@
     font-size: 1rem;
     display: inline-block;
     width: 31.578947368421053%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Computer__title {
+    font-size: 1em;
+    margin: 0;
+    padding: 5px;
+    background: #ececed;
+}
+
+.Computer__choice {
+    height: 238px;
+    margin: 10px;
+    border-radius: 4px;
+    background: #f2f2f2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Computer__ChosenShape {
+    margin: 0;
 }

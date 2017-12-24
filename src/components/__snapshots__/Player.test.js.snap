@@ -21,14 +21,18 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <header>
-          <h1>
+          <h1
+                    className="Player__title"
+          >
                     Player
           </h1>
 </header>,
         <div
-          className="chosenShape"
+          className="Player__choice"
 >
-          <h2 />
+          <h2
+                    className="Player__ChosenShape"
+          />
 </div>,
         <button
           className="btn--rock"
@@ -58,7 +62,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h1>
+          "children": <h1
+            className="Player__title"
+>
             Player
 </h1>,
         },
@@ -69,6 +75,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Player",
+            "className": "Player__title",
           },
           "ref": null,
           "rendered": "Player",
@@ -81,8 +88,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h2 />,
-          "className": "chosenShape",
+          "children": <h2
+            className="Player__ChosenShape"
+/>,
+          "className": "Player__choice",
         },
         "ref": null,
         "rendered": Object {
@@ -91,6 +100,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": undefined,
+            "className": "Player__ChosenShape",
           },
           "ref": null,
           "rendered": null,
@@ -148,14 +158,18 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <header>
-            <h1>
+            <h1
+                        className="Player__title"
+            >
                         Player
             </h1>
 </header>,
           <div
-            className="chosenShape"
+            className="Player__choice"
 >
-            <h2 />
+            <h2
+                        className="Player__ChosenShape"
+            />
 </div>,
           <button
             className="btn--rock"
@@ -185,7 +199,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h1>
+            "children": <h1
+              className="Player__title"
+>
               Player
 </h1>,
           },
@@ -196,6 +212,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Player",
+              "className": "Player__title",
             },
             "ref": null,
             "rendered": "Player",
@@ -208,8 +225,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h2 />,
-            "className": "chosenShape",
+            "children": <h2
+              className="Player__ChosenShape"
+/>,
+            "className": "Player__choice",
           },
           "ref": null,
           "rendered": Object {
@@ -218,6 +237,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": undefined,
+              "className": "Player__ChosenShape",
             },
             "ref": null,
             "rendered": null,

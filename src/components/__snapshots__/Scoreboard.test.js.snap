@@ -28,7 +28,9 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <header>
-          <h1>
+          <h1
+                    className="Scoreboard__title"
+          >
                     Scoreboard
           </h1>
 </header>,
@@ -38,7 +40,9 @@ ShallowWrapper {
           <div
                     className="Scoreboard__score Scoreboard__score--win"
           >
-                    <h2>
+                    <h2
+                              className="Scoreboard__scoreTitle"
+                    >
                               Win
                     </h2>
                     <div
@@ -48,7 +52,9 @@ ShallowWrapper {
           <div
                     className="Scoreboard__score Scoreboard__score--draw"
           >
-                    <h2>
+                    <h2
+                              className="Scoreboard__scoreTitle"
+                    >
                               Draw
                     </h2>
                     <div
@@ -58,7 +64,9 @@ ShallowWrapper {
           <div
                     className="Scoreboard__score Scoreboard__score--loss"
           >
-                    <h2>
+                    <h2
+                              className="Scoreboard__scoreTitle"
+                    >
                               Loss
                     </h2>
                     <div
@@ -67,7 +75,7 @@ ShallowWrapper {
           </div>
 </div>,
         <button
-          className="btn--reset"
+          className="Scoreboard__reset btn"
           onClick={[Function]}
 >
           Reset Game
@@ -85,7 +93,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h1>
+          "children": <h1
+            className="Scoreboard__title"
+>
             Scoreboard
 </h1>,
         },
@@ -96,6 +106,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Scoreboard",
+            "className": "Scoreboard__title",
           },
           "ref": null,
           "rendered": "Scoreboard",
@@ -112,7 +123,9 @@ ShallowWrapper {
             <div
               className="Scoreboard__score Scoreboard__score--win"
 >
-              <h2>
+              <h2
+                            className="Scoreboard__scoreTitle"
+              >
                             Win
               </h2>
               <div
@@ -122,7 +135,9 @@ ShallowWrapper {
             <div
               className="Scoreboard__score Scoreboard__score--draw"
 >
-              <h2>
+              <h2
+                            className="Scoreboard__scoreTitle"
+              >
                             Draw
               </h2>
               <div
@@ -132,7 +147,9 @@ ShallowWrapper {
             <div
               className="Scoreboard__score Scoreboard__score--loss"
 >
-              <h2>
+              <h2
+                            className="Scoreboard__scoreTitle"
+              >
                             Loss
               </h2>
               <div
@@ -150,7 +167,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <h2>
+                <h2
+                  className="Scoreboard__scoreTitle"
+>
                   Win
 </h2>,
                 <div
@@ -167,6 +186,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Win",
+                  "className": "Scoreboard__scoreTitle",
                 },
                 "ref": null,
                 "rendered": "Win",
@@ -193,7 +213,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <h2>
+                <h2
+                  className="Scoreboard__scoreTitle"
+>
                   Draw
 </h2>,
                 <div
@@ -210,6 +232,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Draw",
+                  "className": "Scoreboard__scoreTitle",
                 },
                 "ref": null,
                 "rendered": "Draw",
@@ -236,7 +259,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <h2>
+                <h2
+                  className="Scoreboard__scoreTitle"
+>
                   Loss
 </h2>,
                 <div
@@ -253,6 +278,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Loss",
+                  "className": "Scoreboard__scoreTitle",
                 },
                 "ref": null,
                 "rendered": "Loss",
@@ -282,7 +308,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Reset Game",
-          "className": "btn--reset",
+          "className": "Scoreboard__reset btn",
           "onClick": [Function],
         },
         "ref": null,
@@ -311,7 +337,9 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <header>
-            <h1>
+            <h1
+                        className="Scoreboard__title"
+            >
                         Scoreboard
             </h1>
 </header>,
@@ -321,7 +349,9 @@ ShallowWrapper {
             <div
                         className="Scoreboard__score Scoreboard__score--win"
             >
-                        <h2>
+                        <h2
+                                    className="Scoreboard__scoreTitle"
+                        >
                                     Win
                         </h2>
                         <div
@@ -331,7 +361,9 @@ ShallowWrapper {
             <div
                         className="Scoreboard__score Scoreboard__score--draw"
             >
-                        <h2>
+                        <h2
+                                    className="Scoreboard__scoreTitle"
+                        >
                                     Draw
                         </h2>
                         <div
@@ -341,7 +373,9 @@ ShallowWrapper {
             <div
                         className="Scoreboard__score Scoreboard__score--loss"
             >
-                        <h2>
+                        <h2
+                                    className="Scoreboard__scoreTitle"
+                        >
                                     Loss
                         </h2>
                         <div
@@ -350,7 +384,7 @@ ShallowWrapper {
             </div>
 </div>,
           <button
-            className="btn--reset"
+            className="Scoreboard__reset btn"
             onClick={[Function]}
 >
             Reset Game
@@ -368,7 +402,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h1>
+            "children": <h1
+              className="Scoreboard__title"
+>
               Scoreboard
 </h1>,
           },
@@ -379,6 +415,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Scoreboard",
+              "className": "Scoreboard__title",
             },
             "ref": null,
             "rendered": "Scoreboard",
@@ -395,7 +432,9 @@ ShallowWrapper {
               <div
                 className="Scoreboard__score Scoreboard__score--win"
 >
-                <h2>
+                <h2
+                                className="Scoreboard__scoreTitle"
+                >
                                 Win
                 </h2>
                 <div
@@ -405,7 +444,9 @@ ShallowWrapper {
               <div
                 className="Scoreboard__score Scoreboard__score--draw"
 >
-                <h2>
+                <h2
+                                className="Scoreboard__scoreTitle"
+                >
                                 Draw
                 </h2>
                 <div
@@ -415,7 +456,9 @@ ShallowWrapper {
               <div
                 className="Scoreboard__score Scoreboard__score--loss"
 >
-                <h2>
+                <h2
+                                className="Scoreboard__scoreTitle"
+                >
                                 Loss
                 </h2>
                 <div
@@ -433,7 +476,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <h2>
+                  <h2
+                    className="Scoreboard__scoreTitle"
+>
                     Win
 </h2>,
                   <div
@@ -450,6 +495,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Win",
+                    "className": "Scoreboard__scoreTitle",
                   },
                   "ref": null,
                   "rendered": "Win",
@@ -476,7 +522,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <h2>
+                  <h2
+                    className="Scoreboard__scoreTitle"
+>
                     Draw
 </h2>,
                   <div
@@ -493,6 +541,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Draw",
+                    "className": "Scoreboard__scoreTitle",
                   },
                   "ref": null,
                   "rendered": "Draw",
@@ -519,7 +568,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <h2>
+                  <h2
+                    className="Scoreboard__scoreTitle"
+>
                     Loss
 </h2>,
                   <div
@@ -536,6 +587,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Loss",
+                    "className": "Scoreboard__scoreTitle",
                   },
                   "ref": null,
                   "rendered": "Loss",
@@ -565,7 +617,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Reset Game",
-            "className": "btn--reset",
+            "className": "Scoreboard__reset btn",
             "onClick": [Function],
           },
           "ref": null,

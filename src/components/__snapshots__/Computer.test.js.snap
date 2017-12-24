@@ -19,14 +19,18 @@ ShallowWrapper {
     "props": Object {
       "children": <header>
         <header>
-                <h1>
+                <h1
+                        className="Computer__title"
+                >
                         Computer
                 </h1>
         </header>
         <div
-                className="chosenShape"
+                className="Computer__choice"
         >
-                <h2 />
+                <h2
+                        className="Computer__ChosenShape"
+                />
         </div>
 </header>,
       "className": "Computer",
@@ -39,14 +43,18 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <header>
-            <h1>
+            <h1
+                        className="Computer__title"
+            >
                         Computer
             </h1>
 </header>,
           <div
-            className="chosenShape"
+            className="Computer__choice"
 >
-            <h2 />
+            <h2
+                        className="Computer__ChosenShape"
+            />
 </div>,
         ],
       },
@@ -57,7 +65,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h1>
+            "children": <h1
+              className="Computer__title"
+>
               Computer
 </h1>,
           },
@@ -68,6 +78,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Computer",
+              "className": "Computer__title",
             },
             "ref": null,
             "rendered": "Computer",
@@ -80,8 +91,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h2 />,
-            "className": "chosenShape",
+            "children": <h2
+              className="Computer__ChosenShape"
+/>,
+            "className": "Computer__choice",
           },
           "ref": null,
           "rendered": Object {
@@ -90,6 +103,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": undefined,
+              "className": "Computer__ChosenShape",
             },
             "ref": null,
             "rendered": null,
@@ -110,14 +124,18 @@ ShallowWrapper {
       "props": Object {
         "children": <header>
           <header>
-                    <h1>
+                    <h1
+                              className="Computer__title"
+                    >
                               Computer
                     </h1>
           </header>
           <div
-                    className="chosenShape"
+                    className="Computer__choice"
           >
-                    <h2 />
+                    <h2
+                              className="Computer__ChosenShape"
+                    />
           </div>
 </header>,
         "className": "Computer",
@@ -130,14 +148,18 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <header>
-              <h1>
+              <h1
+                            className="Computer__title"
+              >
                             Computer
               </h1>
 </header>,
             <div
-              className="chosenShape"
+              className="Computer__choice"
 >
-              <h2 />
+              <h2
+                            className="Computer__ChosenShape"
+              />
 </div>,
           ],
         },
@@ -148,7 +170,9 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <h1>
+              "children": <h1
+                className="Computer__title"
+>
                 Computer
 </h1>,
             },
@@ -159,6 +183,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Computer",
+                "className": "Computer__title",
               },
               "ref": null,
               "rendered": "Computer",
@@ -171,8 +196,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <h2 />,
-              "className": "chosenShape",
+              "children": <h2
+                className="Computer__ChosenShape"
+/>,
+              "className": "Computer__choice",
             },
             "ref": null,
             "rendered": Object {
@@ -181,6 +208,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": undefined,
+                "className": "Computer__ChosenShape",
               },
               "ref": null,
               "rendered": null,

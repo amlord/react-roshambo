@@ -40,39 +40,41 @@ ShallowWrapper {
       "children": <table
         className="gameHistory"
 >
-        <tr>
-                <td>
-                        Paper
-                </td>
-                <td>
-                        Draw
-                </td>
-                <td>
-                        Paper
-                </td>
-        </tr>
-        <tr>
-                <td>
-                        Scissors
-                </td>
-                <td>
-                        Win
-                </td>
-                <td>
-                        Paper
-                </td>
-        </tr>
-        <tr>
-                <td>
-                        Rock
-                </td>
-                <td>
-                        Lose
-                </td>
-                <td>
-                        Paper
-                </td>
-        </tr>
+        <tbody>
+                <tr>
+                        <td>
+                                Paper
+                        </td>
+                        <td>
+                                Draw
+                        </td>
+                        <td>
+                                Paper
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                Scissors
+                        </td>
+                        <td>
+                                Win
+                        </td>
+                        <td>
+                                Paper
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                Rock
+                        </td>
+                        <td>
+                                Lose
+                        </td>
+                        <td>
+                                Paper
+                        </td>
+                </tr>
+        </tbody>
 </table>,
       "className": "ScoreHistory",
     },
@@ -82,224 +84,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
-          <tr>
-            <td>
-                        Paper
-            </td>
-            <td>
-                        Draw
-            </td>
-            <td>
-                        Paper
-            </td>
-</tr>,
-          <tr>
-            <td>
-                        Scissors
-            </td>
-            <td>
-                        Win
-            </td>
-            <td>
-                        Paper
-            </td>
-</tr>,
-          <tr>
-            <td>
-                        Rock
-            </td>
-            <td>
-                        Lose
-            </td>
-            <td>
-                        Paper
-            </td>
-</tr>,
-        ],
-        "className": "gameHistory",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <td>
-                Paper
-</td>,
-              <td>
-                Draw
-</td>,
-              <td>
-                Paper
-</td>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Paper",
-              },
-              "ref": null,
-              "rendered": "Paper",
-              "type": "td",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Draw",
-              },
-              "ref": null,
-              "rendered": "Draw",
-              "type": "td",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Paper",
-              },
-              "ref": null,
-              "rendered": "Paper",
-              "type": "td",
-            },
-          ],
-          "type": "tr",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <td>
-                Scissors
-</td>,
-              <td>
-                Win
-</td>,
-              <td>
-                Paper
-</td>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Scissors",
-              },
-              "ref": null,
-              "rendered": "Scissors",
-              "type": "td",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Win",
-              },
-              "ref": null,
-              "rendered": "Win",
-              "type": "td",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Paper",
-              },
-              "ref": null,
-              "rendered": "Paper",
-              "type": "td",
-            },
-          ],
-          "type": "tr",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <td>
-                Rock
-</td>,
-              <td>
-                Lose
-</td>,
-              <td>
-                Paper
-</td>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Rock",
-              },
-              "ref": null,
-              "rendered": "Rock",
-              "type": "td",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Lose",
-              },
-              "ref": null,
-              "rendered": "Lose",
-              "type": "td",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Paper",
-              },
-              "ref": null,
-              "rendered": "Paper",
-              "type": "td",
-            },
-          ],
-          "type": "tr",
-        },
-      ],
-      "type": "table",
-    },
-    "type": "section",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <table
-          className="gameHistory"
->
+        "children": <tbody>
           <tr>
                     <td>
                               Paper
@@ -333,8 +118,8 @@ ShallowWrapper {
                               Paper
                     </td>
           </tr>
-</table>,
-        "className": "ScoreHistory",
+</tbody>,
+        "className": "gameHistory",
       },
       "ref": null,
       "rendered": Object {
@@ -377,7 +162,6 @@ ShallowWrapper {
               </td>
 </tr>,
           ],
-          "className": "gameHistory",
         },
         "ref": null,
         "rendered": Array [
@@ -547,6 +331,314 @@ ShallowWrapper {
             "type": "tr",
           },
         ],
+        "type": "tbody",
+      },
+      "type": "table",
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <table
+          className="gameHistory"
+>
+          <tbody>
+                    <tr>
+                              <td>
+                                        Paper
+                              </td>
+                              <td>
+                                        Draw
+                              </td>
+                              <td>
+                                        Paper
+                              </td>
+                    </tr>
+                    <tr>
+                              <td>
+                                        Scissors
+                              </td>
+                              <td>
+                                        Win
+                              </td>
+                              <td>
+                                        Paper
+                              </td>
+                    </tr>
+                    <tr>
+                              <td>
+                                        Rock
+                              </td>
+                              <td>
+                                        Lose
+                              </td>
+                              <td>
+                                        Paper
+                              </td>
+                    </tr>
+          </tbody>
+</table>,
+        "className": "ScoreHistory",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tbody>
+            <tr>
+                        <td>
+                                    Paper
+                        </td>
+                        <td>
+                                    Draw
+                        </td>
+                        <td>
+                                    Paper
+                        </td>
+            </tr>
+            <tr>
+                        <td>
+                                    Scissors
+                        </td>
+                        <td>
+                                    Win
+                        </td>
+                        <td>
+                                    Paper
+                        </td>
+            </tr>
+            <tr>
+                        <td>
+                                    Rock
+                        </td>
+                        <td>
+                                    Lose
+                        </td>
+                        <td>
+                                    Paper
+                        </td>
+            </tr>
+</tbody>,
+          "className": "gameHistory",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <td>
+                                Paper
+                </td>
+                <td>
+                                Draw
+                </td>
+                <td>
+                                Paper
+                </td>
+</tr>,
+              <tr>
+                <td>
+                                Scissors
+                </td>
+                <td>
+                                Win
+                </td>
+                <td>
+                                Paper
+                </td>
+</tr>,
+              <tr>
+                <td>
+                                Rock
+                </td>
+                <td>
+                                Lose
+                </td>
+                <td>
+                                Paper
+                </td>
+</tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    Paper
+</td>,
+                  <td>
+                    Draw
+</td>,
+                  <td>
+                    Paper
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Paper",
+                  },
+                  "ref": null,
+                  "rendered": "Paper",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Draw",
+                  },
+                  "ref": null,
+                  "rendered": "Draw",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Paper",
+                  },
+                  "ref": null,
+                  "rendered": "Paper",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    Scissors
+</td>,
+                  <td>
+                    Win
+</td>,
+                  <td>
+                    Paper
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Scissors",
+                  },
+                  "ref": null,
+                  "rendered": "Scissors",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Win",
+                  },
+                  "ref": null,
+                  "rendered": "Win",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Paper",
+                  },
+                  "ref": null,
+                  "rendered": "Paper",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    Rock
+</td>,
+                  <td>
+                    Lose
+</td>,
+                  <td>
+                    Paper
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Rock",
+                  },
+                  "ref": null,
+                  "rendered": "Rock",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Lose",
+                  },
+                  "ref": null,
+                  "rendered": "Lose",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Paper",
+                  },
+                  "ref": null,
+                  "rendered": "Paper",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
         "type": "table",
       },
       "type": "section",
@@ -585,7 +677,9 @@ ShallowWrapper {
       "children": <table
         className="gameHistory"
 >
-        
+        <tbody>
+                
+        </tbody>
 </table>,
       "className": "ScoreHistory",
     },
@@ -595,11 +689,23 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [],
+        "children": <tbody>
+          
+</tbody>,
         "className": "gameHistory",
       },
       "ref": null,
-      "rendered": Array [],
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "tbody",
+      },
       "type": "table",
     },
     "type": "section",
@@ -613,7 +719,9 @@ ShallowWrapper {
         "children": <table
           className="gameHistory"
 >
-          
+          <tbody>
+                    
+          </tbody>
 </table>,
         "className": "ScoreHistory",
       },
@@ -623,11 +731,23 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [],
+          "children": <tbody>
+            
+</tbody>,
           "className": "gameHistory",
         },
         "ref": null,
-        "rendered": Array [],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "tbody",
+        },
         "type": "table",
       },
       "type": "section",

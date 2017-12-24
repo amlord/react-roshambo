@@ -6,8 +6,15 @@
     margin-right: 2.631578947368421%;
 }
 
+.Scoreboard__title {
+    font-size: 1em;
+    margin: 0;
+    padding: 5px;
+}
+
 .Scoreboard__scores {
     font-size: 0;
+    margin-top: 10px;
 }
 
 .Scoreboard__score {
@@ -15,8 +22,45 @@
     display: inline-block;
     width: 27.777777777777778%;
     margin-right: 8.333333333333333%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 .Scoreboard__score:last-child {
     margin-right: 0;
+}
+
+.Scoreboard__scoreTitle {
+    margin: 0;
+    padding: 3px;
+    font-size: 0.8em;
+    background: #ececed;
+}
+
+.Scoreboard__scoreCount {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.Scoreboard__scoreCount--win {
+    color: #449d44;
+}
+
+.Scoreboard__scoreCount--loss {
+    color: #d9534f;
+}
+
+.Scoreboard__reset {
+    border: 2px solid #0275d8;
+    color: #0275d8;
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 6px;
+}
+
+.Scoreboard__reset:hover {
+    background: #0275d8;
+    color: #fff;
 }
