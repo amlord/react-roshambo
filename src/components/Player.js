@@ -5,6 +5,8 @@ import { ROCK, PAPER, SCISSORS, Translate } from '../helpers/Constants';
 
 class Player extends Component {
   render() {
+    const chosen = Translate.choice(this.props.chosen);
+
     return (
       <section className="Player">
         <div className="Player__panel">
@@ -12,7 +14,7 @@ class Player extends Component {
             <h1 className="Player__title">Player</h1>
           </header>
           <div className="Player__choice">
-            <h2 className="Player__ChosenShape">{Translate.choice(this.props.chosen)}</h2>
+            <h2 className={"Player__ChosenShape" + ((chosen) ? " Player__ChosenShape--" + chosen.toLowerCase() : "")}>{chosen}</h2>
           </div>
         </div>
         <div className="Player__choiceButtons">

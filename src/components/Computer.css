@@ -29,3 +29,22 @@
 .Computer__ChosenShape {
     margin: 0;
 }
+
+.Computer__ChosenShape::before {
+    font-family: FontAwesome;
+    font-size: 48px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Computer__ChosenShape--rock::before {
+    content: '\f255';
+}
+
+.Computer__ChosenShape--paper::before {
+    content: '\f256';
+}
+
+.Computer__ChosenShape--scissors::before {
+    content: '\f257';
+}

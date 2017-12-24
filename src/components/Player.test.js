@@ -43,4 +43,21 @@ describe('Player', () => {
       expect(mockplayerChoice).toHaveBeenCalledWith(SCISSORS);
     });
   });
+  
+  describe('at least 1 game played', () => {
+    it('`Rock` chosen by player', () => {
+      player.setProps( { chosen: ROCK } );
+      expect( player.find('.Player__ChosenShape').hasClass("Player__ChosenShape--rock") ).toBe(true);
+    });
+
+    it('`Paper` chosen by player', () => {
+      player.setProps( { chosen: PAPER } );
+      expect( player.find('.Player__ChosenShape').hasClass("Player__ChosenShape--paper") ).toBe(true);
+    });
+
+    it('`Scissors` chosen by player', () => {
+      player.setProps( { chosen: SCISSORS } );
+      expect( player.find('.Player__ChosenShape').hasClass("Player__ChosenShape--scissors") ).toBe(true);
+    });
+  });
 });

@@ -5,6 +5,8 @@ import { Translate } from '../helpers/Constants';
 
 class Computer extends Component {
   render() {
+    const chosen = Translate.choice(this.props.chosen);
+    
     return (
       <section className="Computer">
         <header>
@@ -12,7 +14,7 @@ class Computer extends Component {
             <h1 className="Computer__title">Computer</h1>
           </header>
           <div className="Computer__choice">
-            <h2 className="Computer__ChosenShape">{Translate.choice(this.props.chosen)}</h2>
+            <h2 className={"Computer__ChosenShape" + ((chosen) ? " Computer__ChosenShape--" + chosen.toLowerCase() : "")}>{chosen}</h2>
           </div>
         </header>
       </section>

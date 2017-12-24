@@ -58,3 +58,22 @@
 .Player__choiceButtonsTitle {
     font-size: 1em;
 }
+
+.Player__ChosenShape::before {
+    font-family: FontAwesome;
+    font-size: 48px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Player__ChosenShape--rock::before {
+    content: '\f255';
+}
+
+.Player__ChosenShape--paper::before {
+    content: '\f256';
+}
+
+.Player__ChosenShape--scissors::before {
+    content: '\f257';
+}
