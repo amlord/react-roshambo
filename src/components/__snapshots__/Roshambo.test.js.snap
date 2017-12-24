@@ -43,6 +43,7 @@ ShallowWrapper {
 </p>,
         <div>
           <Player
+                    chosen=""
                     playerChoice={[Function]}
           />
           <Scoreboard
@@ -55,7 +56,9 @@ ShallowWrapper {
                                       }
                     }
           />
-          <Computer />
+          <Computer
+                    chosen=""
+          />
 </div>,
       ],
       "className": "Roshambo",
@@ -150,6 +153,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Player
+              chosen=""
               playerChoice={[Function]}
 />,
             <Scoreboard
@@ -162,7 +166,9 @@ ShallowWrapper {
                                         }
               }
 />,
-            <Computer />,
+            <Computer
+              chosen=""
+/>,
           ],
         },
         "ref": null,
@@ -172,6 +178,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
+              "chosen": "",
               "playerChoice": [Function],
             },
             "ref": null,
@@ -198,7 +205,9 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
-            "props": Object {},
+            "props": Object {
+              "chosen": "",
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -241,6 +250,7 @@ ShallowWrapper {
 </p>,
           <div>
             <Player
+                        chosen=""
                         playerChoice={[Function]}
             />
             <Scoreboard
@@ -253,7 +263,9 @@ ShallowWrapper {
                                               }
                         }
             />
-            <Computer />
+            <Computer
+                        chosen=""
+            />
 </div>,
         ],
         "className": "Roshambo",
@@ -348,6 +360,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <Player
+                chosen=""
                 playerChoice={[Function]}
 />,
               <Scoreboard
@@ -360,7 +373,9 @@ ShallowWrapper {
                                               }
                 }
 />,
-              <Computer />,
+              <Computer
+                chosen=""
+/>,
             ],
           },
           "ref": null,
@@ -370,6 +385,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
+                "chosen": "",
                 "playerChoice": [Function],
               },
               "ref": null,
@@ -396,7 +412,9 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "class",
-              "props": Object {},
+              "props": Object {
+                "chosen": "",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],

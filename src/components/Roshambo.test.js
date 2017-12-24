@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 
 import Roshambo from './Roshambo';
-import { ROCK, PAPER, SCISSORS, WIN, DRAW, LOSS } from '../helpers/constants';
+import { ROCK, PAPER, SCISSORS, WIN, DRAW, LOSS } from '../helpers/Constants';
 
 describe('Roshambo', () => {
   const roshambo = shallow(<Roshambo />);

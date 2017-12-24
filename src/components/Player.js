@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './Player.css';
-import { ROCK, PAPER, SCISSORS } from '../helpers/constants';
+import { ROCK, PAPER, SCISSORS, Translate } from '../helpers/Constants';
 
 class Player extends Component {
   render() {
@@ -10,6 +10,9 @@ class Player extends Component {
         <header>
           <h1>Player</h1>
         </header>
+        <div className="chosenShape">
+          <h2>{Translate.shape(this.props.chosen)}</h2>
+        </div>
         <button className="btn--rock" onClick={() => this.props.playerChoice(ROCK)}>Rock</button>
         <button className="btn--paper" onClick={() => this.props.playerChoice(PAPER)}>Paper</button>
         <button className="btn--scissors" onClick={() => this.props.playerChoice(SCISSORS)}>Scissors</button>

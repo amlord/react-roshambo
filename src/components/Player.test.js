@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 
 import Player from './Player';
-import { ROCK, PAPER, SCISSORS } from '../helpers/constants';
+import { ROCK, PAPER, SCISSORS } from '../helpers/Constants';
 
 describe('Player', () => {
   const mockplayerChoice = jest.fn();

@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
+
 import './Computer.css';
+import { Translate } from '../helpers/Constants';
 
 class Computer extends Component {
   render() {
     return (
       <section className="Computer">
         <header>
-          <h1>Computer</h1>
+          <header>
+            <h1>Computer</h1>
+          </header>
+          <div className="chosenShape">
+            <h2>{Translate.shape(this.props.chosen)}</h2>
+          </div>
         </header>
       </section>
     );

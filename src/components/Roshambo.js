@@ -7,7 +7,7 @@ import './Roshambo.css';
 import Player from './Player';
 import Scoreboard from './Scoreboard';
 import Computer from './Computer';
-import { ROCK, PAPER, SCISSORS, WIN, DRAW, LOSS } from '../helpers/constants';
+import { ROCK, PAPER, SCISSORS, WIN, DRAW, LOSS } from '../helpers/Constants';
 
 class Roshambo extends Component {
   constructor() {
@@ -97,6 +97,9 @@ class Roshambo extends Component {
   }
 
   render() {
+    const { history } = this.state;
+    const currentGame = ( history.length ) ? history[history.length - 1] : { player: "", computer: "", outcome: "" };
+
     return (
       <div className="Roshambo">
         <header className="Roshambo-header">
@@ -109,12 +112,14 @@ class Roshambo extends Component {
         <div>
           <Player
             playerChoice={this.playerChoice}
+            chosen={currentGame.player}
           />
           <Scoreboard
             score={this.state.score}
             resetGame={this.resetGame}
           />
-          <Computer />
+          <Computer
+            chosen={currentGame.computer} />
         </div>
       </div>
     );
