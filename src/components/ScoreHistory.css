@@ -1,0 +1,14 @@
+.ScoreHistory__title {
+    margin: 0;
+    font-size: 1em;
+}
+
+.ScoreHistory__noGames {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.ScoreHistory__list {
+    font-size: 0.9em;
+}

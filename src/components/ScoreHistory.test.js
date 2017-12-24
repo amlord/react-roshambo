@@ -20,7 +20,7 @@ describe('ScoreHistory', () => {
     });
 
     it('does not show table rows', () => {
-      expect( scoreboard.find('.gameHistory tr').length ).toEqual(0);
+      expect( scoreboard.find('.ScoreHistory__list tr').length ).toEqual(0);
     });
   });
 
@@ -32,26 +32,26 @@ describe('ScoreHistory', () => {
     });
 
     it('shows 3 table rows', () => {
-      expect( scoreboard.find('.gameHistory tr').length ).toEqual(3);
+      expect( scoreboard.find('.ScoreHistory__list tr').length ).toEqual(3);
     });
 
     it('cell 1 shows player choice', () => {
       const txtRock = Translate.choice(ROCK);
-      const txtPlayerChoice = scoreboard.find('.gameHistory tr').at(2).find('td').at(0).text();
+      const txtPlayerChoice = scoreboard.find('.ScoreHistory__list tr').at(2).find('td').at(1).text();
 
       expect( txtPlayerChoice ).toEqual( txtRock );
     });
 
     it('cell 2 shows game outcome', () => {
       const txtLoss = Translate.outcome(LOSS);
-      const txtOutcome = scoreboard.find('.gameHistory tr').at(2).find('td').at(1).text();
+      const txtOutcome = scoreboard.find('.ScoreHistory__list tr').at(2).find('td').at(2).text();
       
       expect( txtOutcome ).toEqual( txtLoss );
     });
 
     it('cell 3 shows computer choice', () => {
       const txtPaper = Translate.choice(PAPER);
-      const txtComputerChoice = scoreboard.find('.gameHistory tr').at(2).find('td').at(2).text();
+      const txtComputerChoice = scoreboard.find('.ScoreHistory__list tr').at(2).find('td').at(3).text();
       
       expect( txtComputerChoice ).toEqual( txtPaper );
     });

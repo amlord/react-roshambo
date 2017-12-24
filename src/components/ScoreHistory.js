@@ -9,14 +9,15 @@ class ScoreHistory extends Component {
     let { history } = this.props;
 
     return (
-        <table className="gameHistory">
+        <table className="ScoreHistory__list">
           <tbody>
           {history.reverse().map((game, index) => {
               return (
             <tr>
-                <td>{Translate.choice(game.player)}</td>
-                <td>{Translate.outcome(game.outcome)}</td>
-                <td>{Translate.choice(game.computer)}</td>
+              <td>{(history.length - index)}</td>
+              <td>{Translate.choice(game.player)}</td>
+              <td>{Translate.outcome(game.outcome)}</td>
+              <td>{Translate.choice(game.computer)}</td>
             </tr>
               );
           })}
@@ -27,7 +28,7 @@ class ScoreHistory extends Component {
 
   renderEmptyHistory = () => {
     return (
-      <div>(no history)</div>
+      <div className="ScoreHistory__noGames">(no games played)</div>
     );
   }
 
@@ -36,7 +37,8 @@ class ScoreHistory extends Component {
 
     return (
       <section className="ScoreHistory">
-        {(history) ? this.renderHistory() : this.renderEmptyHistory()}
+        <h1 className="ScoreHistory__title">Game History:</h1>
+        {(history.length) ? this.renderHistory() : this.renderEmptyHistory()}
       </section>
     );
   }
