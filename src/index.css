@@ -10,7 +10,7 @@
 /* General */
 html,
 body,
-.portfolio {
+.Roshambo {
   height: 100%;
   width: 100%;
   padding: 0;
@@ -79,34 +79,4 @@ tbody tr:nth-child(even) {
 .btn--danger:hover {
   background-color: #c9302c;
   border-color: #c12e2a;
-}
-
-.portfolio {
-  background: #d5d5d5;
-  font-family: EncodeSansNarrowLight, helvetica, arial, sans-serif;
-}
-
-/* Portfolio Panel */
-.portfolio__container {
-  max-width: 450px;
-  padding: 20px;
-  margin: 0 auto;
-}
-.portfolio__panel {
-  padding: 20px;
-  background: #fff;
-  border-radius: 4px;
-  text-align: center;
-  box-shadow: 0 3px 6px 1px rgba(0,0,0,0.14);
-}
-.portfolio__title {
-  margin: 0 0 20px;
-}
-
-/* Portfolio Footer */
-.portfolio__footer {
-  color: #333;
-  text-align: center;
-  margin-top: 10px;
-  font-weight: 100;
 }

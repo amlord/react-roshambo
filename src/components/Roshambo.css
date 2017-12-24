@@ -1,18 +1,40 @@
+/* Roshambo */
 .Roshambo {
-  text-align: center;
+  background: #d5d5d5;
+  font-family: EncodeSansNarrowLight, helvetica, arial, sans-serif;
 }
 
-.Roshambo__header {
-  background-color: #222;
+/* Roshambo Panel */
+.Roshambo__container {
+  max-width: 800px;
   padding: 20px;
-  color: white;
+  margin: 0 auto;
+}
+
+.Roshambo__panel {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 3px 6px 1px rgba(0,0,0,0.14);
 }
 
 .Roshambo__title {
-  font-size: 1.5em;
+  margin: 0;
+  line-height: 1em;
 }
 
 .Roshambo__subtitle {
   font-size: 0.8rem;
   font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+/* Roshambo Footer */
+.Roshambo__footer {
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 100;
 }

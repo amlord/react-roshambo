@@ -101,25 +101,30 @@ class Roshambo extends Component {
     const currentGame = ( history.length ) ? history[history.length - 1] : { player: "", computer: "", outcome: "" };
 
     return (
-      <div className="Roshambo">
-        <header className="Roshambo__header">
-          <h1 className="Roshambo__title">Roshambo <small className="Roshambo__subtitle">(Rock, Paper, Scissors)</small></h1>
-        </header>
-        <p className="Roshambo__intro">Rules of the game can be found on the <a href="https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors">Rock, Paper Scissors Wikipedia page</a>.</p>
-        <div>
-          <Player
-            playerChoice={this.playerChoice}
-            chosen={currentGame.player}
-          />
-          <Scoreboard
-            score={this.state.score}
-            resetGame={this.resetGame}
-            history={history}
-          />
-          <Computer
-            chosen={currentGame.computer} />
+      <section className="Roshambo">
+        <div className="Roshambo__container">
+          <div className="Roshambo__panel">
+            <header className="Roshambo__header">
+              <h1 className="Roshambo__title">Roshambo</h1>
+              <h2 className="Roshambo__subtitle">(Rock, Paper, Scissors)</h2>
+            </header>
+            <p className="Roshambo__intro">Rules of the game can be found on the <a href="https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors">Rock, Paper Scissors Wikipedia page</a>.</p>
+            <div>
+              <Player
+                playerChoice={this.playerChoice}
+                chosen={currentGame.player}
+              />
+              <Scoreboard
+                score={this.state.score}
+                resetGame={this.resetGame}
+                history={history}
+              />
+              <Computer
+                chosen={currentGame.computer} />
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     );
   }
 }
