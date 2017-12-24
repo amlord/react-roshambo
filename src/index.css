@@ -1,5 +1,112 @@
-body {
-  margin: 0;
+/* Font Definition */
+@font-face {
+  font-family: 'EncodeSansNarrowLight';
+  src: url('https://s3.eu-west-2.amazonaws.com/amlstatic/fonts/encodesansnarrow-light-webfont.woff2') format('woff2'),
+       url('https://s3.eu-west-2.amazonaws.com/amlstatic/fonts/encodesansnarrow-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* General */
+html,
+body,
+.portfolio {
+  height: 100%;
+  width: 100%;
   padding: 0;
-  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #f21b3f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Tables */
+table {
+  width: 100%;
+}
+
+td {
+  padding: 8px;
+}
+th:first-child,
+td:first-child {
+  border-radius: 4px 0 0 4px;
+}
+th:last-child,
+td:last-child {
+  border-radius: 0 4px 4px 0;
+}
+tbody tr:nth-child(odd) {
+  background: transparent;
+}
+tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.btn--danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+.btn--danger:hover {
+  background-color: #c9302c;
+  border-color: #c12e2a;
+}
+
+.portfolio {
+  background: #d5d5d5;
+  font-family: EncodeSansNarrowLight, helvetica, arial, sans-serif;
+}
+
+/* Portfolio Panel */
+.portfolio__container {
+  max-width: 450px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.portfolio__panel {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 3px 6px 1px rgba(0,0,0,0.14);
+}
+.portfolio__title {
+  margin: 0 0 20px;
+}
+
+/* Portfolio Footer */
+.portfolio__footer {
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 100;
 }

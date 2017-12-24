@@ -102,13 +102,10 @@ class Roshambo extends Component {
 
     return (
       <div className="Roshambo">
-        <header className="Roshambo-header">
-          <img src={logo} className="Roshambo-logo" alt="logo" />
-          <h1 className="Roshambo-title">Welcome to Roshambo</h1>
+        <header className="Roshambo__header">
+          <h1 className="Roshambo__title">Roshambo <small className="Roshambo__subtitle">(Rock, Paper, Scissors)</small></h1>
         </header>
-        <p className="Roshambo-intro">
-          To get started, edit <code>src/Roshambo.js</code> and save to reload.
-        </p>
+        <p className="Roshambo__intro">Rules of the game can be found on the <a href="https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors">Rock, Paper Scissors Wikipedia page</a>.</p>
         <div>
           <Player
             playerChoice={this.playerChoice}

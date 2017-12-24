@@ -19,27 +19,29 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <header
-          className="Roshambo-header"
+          className="Roshambo__header"
 >
-          <img
-                    alt="logo"
-                    className="Roshambo-logo"
-                    src="logo.svg"
-          />
           <h1
-                    className="Roshambo-title"
+                    className="Roshambo__title"
           >
-                    Welcome to Roshambo
+                    Roshambo 
+                    <small
+                              className="Roshambo__subtitle"
+                    >
+                              (Rock, Paper, Scissors)
+                    </small>
           </h1>
 </header>,
         <p
-          className="Roshambo-intro"
+          className="Roshambo__intro"
 >
-          To get started, edit 
-          <code>
-                    src/Roshambo.js
-          </code>
-           and save to reload.
+          Rules of the game can be found on the 
+          <a
+                    href="https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors"
+          >
+                    Rock, Paper Scissors Wikipedia page
+          </a>
+          .
 </p>,
         <div>
           <Player
@@ -71,48 +73,52 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <img
-              alt="logo"
-              className="Roshambo-logo"
-              src="logo.svg"
-/>,
-            <h1
-              className="Roshambo-title"
+          "children": <h1
+            className="Roshambo__title"
 >
-              Welcome to Roshambo
+            Roshambo 
+            <small
+                        className="Roshambo__subtitle"
+            >
+                        (Rock, Paper, Scissors)
+            </small>
 </h1>,
-          ],
-          "className": "Roshambo-header",
+          "className": "Roshambo__header",
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "logo",
-              "className": "Roshambo-logo",
-              "src": "logo.svg",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Roshambo ",
+              <small
+                className="Roshambo__subtitle"
+>
+                (Rock, Paper, Scissors)
+</small>,
+            ],
+            "className": "Roshambo__title",
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Welcome to Roshambo",
-              "className": "Roshambo-title",
+          "ref": null,
+          "rendered": Array [
+            "Roshambo ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "(Rock, Paper, Scissors)",
+                "className": "Roshambo__subtitle",
+              },
+              "ref": null,
+              "rendered": "(Rock, Paper, Scissors)",
+              "type": "small",
             },
-            "ref": null,
-            "rendered": "Welcome to Roshambo",
-            "type": "h1",
-          },
-        ],
+          ],
+          "type": "h1",
+        },
         "type": "header",
       },
       Object {
@@ -121,29 +127,32 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "To get started, edit ",
-            <code>
-              src/Roshambo.js
-</code>,
-            " and save to reload.",
+            "Rules of the game can be found on the ",
+            <a
+              href="https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors"
+>
+              Rock, Paper Scissors Wikipedia page
+</a>,
+            ".",
           ],
-          "className": "Roshambo-intro",
+          "className": "Roshambo__intro",
         },
         "ref": null,
         "rendered": Array [
-          "To get started, edit ",
+          "Rules of the game can be found on the ",
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "src/Roshambo.js",
+              "children": "Rock, Paper Scissors Wikipedia page",
+              "href": "https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors",
             },
             "ref": null,
-            "rendered": "src/Roshambo.js",
-            "type": "code",
+            "rendered": "Rock, Paper Scissors Wikipedia page",
+            "type": "a",
           },
-          " and save to reload.",
+          ".",
         ],
         "type": "p",
       },
@@ -229,27 +238,29 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <header
-            className="Roshambo-header"
+            className="Roshambo__header"
 >
-            <img
-                        alt="logo"
-                        className="Roshambo-logo"
-                        src="logo.svg"
-            />
             <h1
-                        className="Roshambo-title"
+                        className="Roshambo__title"
             >
-                        Welcome to Roshambo
+                        Roshambo 
+                        <small
+                                    className="Roshambo__subtitle"
+                        >
+                                    (Rock, Paper, Scissors)
+                        </small>
             </h1>
 </header>,
           <p
-            className="Roshambo-intro"
+            className="Roshambo__intro"
 >
-            To get started, edit 
-            <code>
-                        src/Roshambo.js
-            </code>
-             and save to reload.
+            Rules of the game can be found on the 
+            <a
+                        href="https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors"
+            >
+                        Rock, Paper Scissors Wikipedia page
+            </a>
+            .
 </p>,
           <div>
             <Player
@@ -281,48 +292,52 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <img
-                alt="logo"
-                className="Roshambo-logo"
-                src="logo.svg"
-/>,
-              <h1
-                className="Roshambo-title"
+            "children": <h1
+              className="Roshambo__title"
 >
-                Welcome to Roshambo
+              Roshambo 
+              <small
+                            className="Roshambo__subtitle"
+              >
+                            (Rock, Paper, Scissors)
+              </small>
 </h1>,
-            ],
-            "className": "Roshambo-header",
+            "className": "Roshambo__header",
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "logo",
-                "className": "Roshambo-logo",
-                "src": "logo.svg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Roshambo ",
+                <small
+                  className="Roshambo__subtitle"
+>
+                  (Rock, Paper, Scissors)
+</small>,
+              ],
+              "className": "Roshambo__title",
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Welcome to Roshambo",
-                "className": "Roshambo-title",
+            "ref": null,
+            "rendered": Array [
+              "Roshambo ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "(Rock, Paper, Scissors)",
+                  "className": "Roshambo__subtitle",
+                },
+                "ref": null,
+                "rendered": "(Rock, Paper, Scissors)",
+                "type": "small",
               },
-              "ref": null,
-              "rendered": "Welcome to Roshambo",
-              "type": "h1",
-            },
-          ],
+            ],
+            "type": "h1",
+          },
           "type": "header",
         },
         Object {
@@ -331,29 +346,32 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "To get started, edit ",
-              <code>
-                src/Roshambo.js
-</code>,
-              " and save to reload.",
+              "Rules of the game can be found on the ",
+              <a
+                href="https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors"
+>
+                Rock, Paper Scissors Wikipedia page
+</a>,
+              ".",
             ],
-            "className": "Roshambo-intro",
+            "className": "Roshambo__intro",
           },
           "ref": null,
           "rendered": Array [
-            "To get started, edit ",
+            "Rules of the game can be found on the ",
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "src/Roshambo.js",
+                "children": "Rock, Paper Scissors Wikipedia page",
+                "href": "https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors",
               },
               "ref": null,
-              "rendered": "src/Roshambo.js",
-              "type": "code",
+              "rendered": "Rock, Paper Scissors Wikipedia page",
+              "type": "a",
             },
-            " and save to reload.",
+            ".",
           ],
           "type": "p",
         },
