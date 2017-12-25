@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import rnd  from 'pure-random';
+import Random from 'random-js';
 
-import logo from '../logo.svg';
 import './Roshambo.css';
 
 import Player from './Player';
@@ -56,7 +55,13 @@ class Roshambo extends Component {
 
   computerChoice = seed => {
     // generate random number between 1 and 3 (repeatable with `seed` for testing)
-    return rnd.random( seed || rnd.genCsSeed(), 1, 3 ).value;
+    const newSeed = (seed)
+      ? Random.engines.mt19937().seed(seed)
+      : Random.engines.mt19937().autoSeed();
+
+    const random = new Random(newSeed);
+
+    return random.integer(1, 3);
   }
 
   gameOutcome = ( playerChoice, computerChoice ) => {

@@ -2,11 +2,13 @@
   "name": "react-roshambo",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "jest-enzyme": "^4.0.1",
-    "pure-random": "^0.1.1",
+    "jest-enzyme": "^4.0.1"
+  },
+  "dependencies": {
+    "random-js": "^1.0.8",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17",

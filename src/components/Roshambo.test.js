@@ -97,21 +97,21 @@ describe('Roshambo', () => {
     // ROCK outcome
     it('rock', () => {
       // `seed` causes outcome of 1 (ROCK)
-      seed = [3225582889, 3161022486, 617958775, 3943669506];
+      seed = 1421904966;
       expect(roshambo.instance().computerChoice(seed)).toEqual(ROCK);
     });
 
     // PAPER outcome
     it('paper', () => {
       // `seed` causes outcome of 2 (PAPER)
-      seed = [1421904966, 3555913741, 725236340, 399219481];
+      seed = 399219481;
       expect(roshambo.instance().computerChoice(seed)).toEqual(PAPER);
     });
 
     // SCISSORS outcome
     it('scissors', () => {
       // `seed` causes outcome of 3 (SCISSORS)
-      seed = [2390802463, 2352622131, 965876151, 1929502849];
+      seed = 3225582889;
       expect(roshambo.instance().computerChoice(seed)).toEqual(SCISSORS);
     });
   });
